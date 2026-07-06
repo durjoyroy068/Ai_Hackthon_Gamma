@@ -1,0 +1,782 @@
+{
+  "common": {
+    "appName": "Mon-Songlap",
+    "tagline": "A safe dialogue with your mind.",
+    "loading": "Loading…",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "free": "Free",
+    "learnMore": "Learn more",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language",
+    "bn": "বাংলা",
+    "en": "English",
+    "error": "Something went wrong. Please try again.",
+    "success": "Done."
+  },
+  "nav": {
+    "newChat": "New chat",
+    "searchChats": "Search chats",
+    "pinned": "Pinned",
+    "recent": "Recent",
+    "today": "Today",
+    "lastWeek": "Last 7 days",
+    "lastMonth": "Last month",
+    "folders": "Folders",
+    "moodJournal": "Mood journal",
+    "moodCalendar": "Mood calendar",
+    "assessment": "Screening questionnaire",
+    "mindGym": "Mind Gym",
+    "voiceAnalysis": "Voice check-in",
+    "recoveryPlan": "Recovery plan",
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "achievements": "Achievements",
+    "settings": "Settings",
+    "help": "Help center",
+    "feedback": "Send feedback",
+    "logout": "Log out",
+    "profile": "Profile",
+    "notifications": "Notifications",
+    "freePlan": "Free plan"
+  },
+  "landing": {
+    "hero": {
+      "headline": "Talk freely. Heal gently. Grow stronger.",
+      "subheading": "Questionnaires, AI chat, and personal support — all in one place. Not judgment — listening.",
+      "ctaPrimary": "Get started — it's free",
+      "ctaSecondary": "See how it works"
+    },
+    "howItWorks": {
+      "title": "How it works",
+      "step1": {
+        "title": "Answer a few questions",
+        "description": "Age-appropriate questions help you notice how you've been feeling — not a test, just supportive screening."
+      },
+      "step2": {
+        "title": "Chat with AI companion",
+        "description": "Talk freely with Mon-Songlap — a warm, non-judgmental AI that listens in Bangla or English."
+      },
+      "step3": {
+        "title": "Personal support plan",
+        "description": "Based on your answers — small daily steps, mood tracking, and referral guidance when you need professional support."
+      }
+    },
+    "voice": {
+      "title": "What your voice carries matters too",
+      "description": "Sometimes writing is hard. Speak into the mic — we'll offer supportive insight from tone and pace, not a clinical verdict.",
+      "feature1": "Short 15-second recording",
+      "feature2": "Emotions explained in plain language",
+      "feature3": "Compare with past recordings"
+    },
+    "privacy": {
+      "title": "Your privacy, stated clearly",
+      "statement1": "Your personal data is never sold or shared with schools, family, or employers.",
+      "statement2": "Your conversations and journal are encrypted; you can delete them anytime.",
+      "statement3": "We do not sell your data. We do not use it for advertising.",
+      "statement4": "If you're under 18, guardian consent is required — but they cannot see your personal conversations."
+    },
+    "testimonials": {
+      "title": "What students are saying",
+      "quote1": {
+        "text": "I was embarrassed to tell anyone about exam stress. Here I can write without being judged — just heard.",
+        "attribution": "— University, 2nd year"
+      },
+      "quote2": {
+        "text": "After screening I realized I wasn't alone. The referral card gave me courage to see a counselor.",
+        "attribution": "— College, 12th grade"
+      },
+      "quote3": {
+        "text": "Being able to speak in Bangla is huge. I can't express my feelings properly in English apps.",
+        "attribution": "— School, Class 10"
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "q1": {
+        "question": "Will my information be shared with anyone?",
+        "answer": "No. Your conversations and journal are yours alone — not sent to school, family, or friends. No one can see them except in an emergency situation."
+      },
+      "q2": {
+        "question": "Is this a replacement for a doctor?",
+        "answer": "No, not at all. Mon-Songlap offers screening and supportive insight — not treatment or diagnosis. We'll guide you toward professional help when needed."
+      },
+      "q3": {
+        "question": "If I seek mental health support, will everyone know?",
+        "answer": "You can keep your identity private here. Seeking support for your wellbeing is not weakness — it's self-care."
+      },
+      "q4": {
+        "question": "Is it safe?",
+        "answer": "Yes. Your data is encrypted and can be deleted anytime. Bangladesh helplines are always visible for crisis support."
+      },
+      "q5": {
+        "question": "Why is it free?",
+        "answer": "Our goal is to make mental health support accessible for students. All core features will remain free."
+      }
+    },
+    "footer": {
+      "tagline": "A safe dialogue with your mind.",
+      "crisisTitle": "Crisis support",
+      "helpline1098": "National Mental Health Helpline: 1098",
+      "kaanPeteRoi": "Kaan Pete Roi: +8809604445555",
+      "alapon": "Alapon Bangladesh: +8801787111111",
+      "copyright": "© 2026 Mon-Songlap. All rights reserved.",
+      "privacy": "Privacy policy",
+      "terms": "Terms of service"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Sign in to continue talking with your mind",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign in",
+      "noAccount": "Don't have an account?",
+      "signUp": "Create an account"
+    },
+    "register": {
+      "title": "A fresh start",
+      "subtitle": "Begin your story in a safe space",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone number",
+      "recoveryEmail": "Recovery email",
+      "recoveryPhone": "Recovery phone",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "country": "Country",
+      "language": "Preferred language",
+      "age": "Age",
+      "acceptTerms": "I agree to the Terms of Service and Privacy Policy",
+      "submit": "Create account",
+      "hasAccount": "Already have an account?",
+      "login": "Sign in"
+    },
+    "forgotPassword": {
+      "title": "Forgot password?",
+      "subtitle": "Enter your email — we'll send a reset link",
+      "email": "Email",
+      "submit": "Send reset link",
+      "backToLogin": "Back to sign in"
+    },
+    "resetPassword": {
+      "title": "New password",
+      "subtitle": "Choose a strong password",
+      "password": "New password",
+      "confirmPassword": "Confirm password",
+      "submit": "Update password"
+    },
+    "verifyEmail": {
+      "title": "Verify email",
+      "subtitle": "A 6-digit code has been sent to your email",
+      "code": "Verification code",
+      "submit": "Verify",
+      "resend": "Resend code",
+      "changeEmail": "Change email"
+    },
+    "verifyPhone": {
+      "title": "Verify phone",
+      "subtitle": "An OTP has been sent to your phone",
+      "code": "OTP code",
+      "submit": "Verify",
+      "resend": "Resend OTP"
+    },
+    "social": {
+      "google": "Continue with Google",
+      "apple": "Continue with Apple",
+      "microsoft": "Continue with Microsoft"
+    },
+    "guardianConsent": {
+      "title": "Guardian consent",
+      "subtitle": "You're under 18 — guardian consent is required to activate your account",
+      "explanation": "Your guardian will know you're using this service — but they cannot see your personal conversations, journal, or screening results.",
+      "guardianName": "Guardian's name",
+      "guardianEmail": "Guardian's email",
+      "guardianPhone": "Guardian's phone",
+      "consentCheckbox": "I consent to my child using Mon-Songlap",
+      "submit": "Submit consent"
+    },
+    "errors": {
+      "invalidEmail": "Please enter a valid email",
+      "passwordMismatch": "Passwords don't match",
+      "weakPassword": "Password must be at least 8 characters",
+      "invalidCode": "Invalid code — please try again"
+    }
+  },
+  "onboarding": {
+    "age": {
+      "title": "How old are you?",
+      "subtitle": "We'll show age-appropriate screening questions",
+      "band1317": "13–17 years",
+      "band1824": "18–24 years",
+      "band25plus": "25+ years",
+      "note": "Your answer is only used for screening — it won't be shared with anyone"
+    },
+    "consent": {
+      "title": "Consent & privacy",
+      "subtitle": "Please read before you begin",
+      "dataUse": "Your information is used only to support you",
+      "notDiagnosis": "This is not treatment or diagnosis — screening and supportive insight",
+      "deleteAnytime": "You can delete your data anytime",
+      "emergency": "In a crisis, safety resources may be shown for your protection",
+      "accept": "I understand and agree",
+      "decline": "Not now"
+    },
+    "language": {
+      "title": "Language & accessibility",
+      "subtitle": "Set your preferences — you can change them later",
+      "preferredLanguage": "Preferred language",
+      "highContrast": "High contrast mode",
+      "reduceMotion": "Reduce motion",
+      "screenReader": "Screen reader optimized",
+      "submit": "Let's begin"
+    },
+    "accessibility": {
+      "title": "Accessibility settings",
+      "fontSize": "Font size",
+      "fontSizeSmall": "Small",
+      "fontSizeMedium": "Medium",
+      "fontSizeLarge": "Large"
+    }
+  },
+  "chat": {
+    "welcome": "Hi 👋 I'm Mon-Songlap. I'm here to listen without judgment. How is your mind today?",
+    "placeholder": "Write what's on your mind…",
+    "suggestions": {
+      "chip1": "My mind feels heavy today",
+      "chip2": "I'm not sleeping well",
+      "chip3": "I want to ease exam stress",
+      "chip4": "I just want to talk to someone"
+    },
+    "controls": {
+      "copy": "Copy",
+      "regenerate": "Regenerate",
+      "like": "Helpful",
+      "dislike": "Not helpful",
+      "share": "Share",
+      "stop": "Stop"
+    },
+    "typing": "Writing…",
+    "newConversation": "New conversation",
+    "safetyCard": {
+      "title": "You're not alone",
+      "message": "If you'd like to talk to someone right now, you can reach these numbers. They're free and confidential.",
+      "callNow": "Call now",
+      "notEmergency": "I'm okay, thank you"
+    },
+    "emptyState": "Your conversations will appear here",
+    "errorRetry": "Couldn't send — please try again"
+  },
+  "mood": {
+    "journal": {
+      "title": "Mood journal",
+      "subtitle": "How is your mind today? Jot it down briefly",
+      "todayEntry": "Today's entry",
+      "saveEntry": "Save",
+      "notePlaceholder": "What happened today, how you're feeling…"
+    },
+    "calendar": {
+      "title": "Mood calendar",
+      "subtitle": "A picture of your mind, day by day",
+      "noEntry": "Nothing written on this day",
+      "viewEntry": "View",
+      "timeline": "Timeline"
+    },
+    "emotions": {
+      "title": "What emotions are present?",
+      "happy": "Happy",
+      "sad": "Sad",
+      "anxious": "Anxious",
+      "calm": "Calm",
+      "angry": "Angry",
+      "tired": "Tired",
+      "hopeful": "Hopeful",
+      "lonely": "Lonely",
+      "content": "Content",
+      "neutral": "Neutral",
+      "energetic": "Energetic",
+      "stressed": "Stressed"
+    },
+    "score": {
+      "title": "Mood score",
+      "low": "Low",
+      "high": "Good"
+    },
+    "trackers": {
+      "sleep": {
+        "title": "Sleep",
+        "label": "How many hours did you sleep last night?",
+        "hours": "hours"
+      },
+      "hydration": {
+        "title": "Hydration",
+        "label": "How much water did you drink today?"
+      },
+      "exercise": {
+        "title": "Exercise",
+        "label": "Did you walk or exercise today?"
+      },
+      "meditation": {
+        "title": "Mindfulness",
+        "label": "Did you take a moment to be still today?"
+      },
+      "gratitude": {
+        "title": "Gratitude",
+        "label": "What are you grateful for today?",
+        "placeholder": "Write one small thing…"
+      },
+      "reflection": {
+        "title": "Reflection",
+        "label": "Reflect on your day a little",
+        "placeholder": "What you learned, what felt good…"
+      },
+      "breathing": {
+        "title": "Breathing",
+        "label": "Did you do a breathing exercise today?"
+      }
+    },
+    "habitTracker": {
+      "title": "Habit tracker",
+      "subtitle": "Small steps, meaningful change",
+      "streak": "Streak",
+      "days": "days",
+      "streakBreak": "You missed a day — that's okay, start again",
+      "complete": "Complete"
+    },
+    "riskIndicators": {
+      "title": "Mind indicators",
+      "stress": "Stress",
+      "depression": "Low mood",
+      "anxiety": "Anxiety",
+      "burnout": "Burnout",
+      "loneliness": "Loneliness",
+      "explanation": "These are screening-based observations — not treatment. If you're concerned, speak with a professional."
+    }
+  },
+  "assessment": {
+    "title": "Smart screening",
+    "subtitle": "Take a moment — we'll help you understand your mind",
+    "intro": "Over the last 2 weeks, how often have you been bothered by the following?",
+    "progress": "Question {{current}} / {{total}}",
+    "optionalNote": "You can write more if you'd like (optional)",
+    "notePlaceholder": "Your words…",
+    "submit": "See results",
+    "retake": "Take again",
+    "options": {
+      "notAtAll": "Not at all",
+      "severalDays": "Several days",
+      "moreThanHalf": "More than half the days",
+      "nearlyEvery": "Nearly every day"
+    },
+    "phq9": {
+      "title": "PHQ-9 screening",
+      "q1": "Little interest or pleasure in doing things",
+      "q2": "Feeling down, depressed, or hopeless",
+      "q3": "Trouble falling or staying asleep, or sleeping too much",
+      "q4": "Feeling tired or having little energy",
+      "q5": "Poor appetite or overeating",
+      "q6": "Feeling bad about yourself — or like a failure",
+      "q7": "Trouble concentrating on things",
+      "q8": "Moving or speaking slowly, or being restless or fidgety",
+      "q9": "Thoughts of hurting yourself or that you'd be better off dead"
+    },
+    "gad7": {
+      "title": "GAD-7 screening",
+      "q1": "Feeling nervous, anxious, or on edge",
+      "q2": "Not being able to stop or control worrying",
+      "q3": "Worrying too much about different things",
+      "q4": "Trouble relaxing",
+      "q5": "Being so restless that it's hard to sit still",
+      "q6": "Becoming easily annoyed or irritable",
+      "q7": "Feeling afraid as if something awful might happen"
+    },
+    "phqa": {
+      "title": "PHQ-A screening (youth)",
+      "q1": "Little interest or pleasure in doing things",
+      "q2": "Feeling down, bad, or hopeless",
+      "q3": "Trouble falling asleep or sleeping too much",
+      "q4": "Feeling tired or low on energy",
+      "q5": "Poor appetite or overeating",
+      "q6": "Feeling bad about yourself",
+      "q7": "Trouble concentrating",
+      "q8": "Moving slowly or being restless",
+      "q9": "Thoughts of hurting yourself"
+    },
+    "rcads": {
+      "title": "RCADS screening",
+      "q1": "I worry about many things",
+      "q2": "I feel sad or empty",
+      "q3": "I'm afraid something bad will happen",
+      "q4": "I feel embarrassed talking at school or with friends",
+      "q5": "I feel like I'm annoying",
+      "q6": "I can't sleep at night",
+      "q7": "I shake or sweat easily"
+    },
+    "results": {
+      "title": "Your screening result",
+      "disclaimer": "This is a screening result — not treatment or diagnosis. Speaking with a professional can give you clearer insight.",
+      "score": "Score",
+      "minimal": {
+        "title": "Minimal",
+        "description": "Your answers suggest little stress or low mood right now. Keep up regular mood check-ins."
+      },
+      "mild": {
+        "title": "Mild",
+        "description": "Some worry or tiredness is showing up. Small self-care steps and conversation may help."
+      },
+      "moderate": {
+        "title": "Moderate",
+        "description": "Your answers show some concerning signs. Speaking with a counselor or mental health professional would be a good step."
+      },
+      "high": {
+        "title": "High",
+        "description": "Your answers suggest serious concern. Please talk to someone today — use the helplines below or a trusted person."
+      }
+    },
+    "summary": {
+      "minimal": "From your answers, it seems you're doing relatively well. Writing in your mood journal now and then can help you understand yourself better.",
+      "mild": "Some days have been hard — that's normal. You're not alone. Small steps and talking to someone can make things easier.",
+      "moderate": "Your mind needs understanding right now. Speaking with a professional makes it easier to find the right support — that's not weakness.",
+      "high": "From what you've shared, you seem to be in a lot of pain. Please reach out to someone today — you're not alone, help is available."
+    },
+    "referral": {
+      "title": "Professional support suggestion",
+      "message": "Based on your screening result, speaking with a mental health professional would be a good step.",
+      "findHelp": "Find support",
+      "schoolCounselor": "School/college counselor",
+      "helpline": "Call a helpline"
+    },
+    "mindDialogueSummary": {
+      "title": "Mind dialogue summary"
+    }
+  },
+  "voice": {
+    "title": "Voice check-in",
+    "subtitle": "Speak — get a gentle sense of how you're feeling",
+    "consentModal": {
+      "title": "Recording consent",
+      "description": "Your voice will be used only for analysis in this session. It won't be shared with third parties. You can delete it anytime.",
+      "notStored": "Recordings are not permanently stored on the server",
+      "notShared": "Not sent to anyone",
+      "accept": "I agree — let's begin",
+      "decline": "Not now"
+    },
+    "recording": {
+      "start": "Start recording",
+      "stop": "Stop",
+      "timer": "{{seconds}} seconds",
+      "maxDuration": "Maximum 15 seconds",
+      "upload": "Upload audio",
+      "listening": "Listening…"
+    },
+    "analysis": {
+      "title": "Analysis result",
+      "emotions": "Emotions",
+      "confidence": "Confidence level",
+      "metrics": {
+        "title": "Voice characteristics",
+        "speechRate": "Speech pace",
+        "pitch": "Voice pitch",
+        "energy": "Energy level"
+      },
+      "explanation": "Speaking quickly can sometimes signal anxiety — but context matters too. It's not the only truth.",
+      "timeline": "Emotion timeline",
+      "noData": "No recordings yet"
+    },
+    "emotions": {
+      "happy": "Happy",
+      "sad": "Sad",
+      "neutral": "Neutral",
+      "anxious": "Anxious",
+      "stressed": "Stressed",
+      "calm": "Calm"
+    },
+    "disclaimer": "This analysis offers supportive insight — not a clinical opinion or diagnosis."
+  },
+  "mindGym": {
+    "title": "Mind Gym",
+    "subtitle": "Practice mental skills in a safe space",
+    "progress": "Your progress",
+    "level": "Level",
+    "sessions": "sessions",
+    "moodBefore": "Mood before (1–10)",
+    "moodAfter": "Mood after (1–10)",
+    "scenarios": "Scenarios",
+    "recommended": "For you",
+    "minutes": "min",
+    "start": "Start",
+    "chooseAction": "What will you do?",
+    "reflectionTitle": "Brief reflection",
+    "reflectionPlaceholder": "What did you learn from this scenario? How did you feel?",
+    "getFeedback": "Get feedback",
+    "feedbackTitle": "Your feedback",
+    "sessionScore": "Session score",
+    "backToList": "Another scenario",
+    "complete": "Session complete!"
+  },
+  "recovery": {
+    "title": "30-day support plan",
+    "subtitle": "Small steps, at your own pace",
+    "todayGoal": "Today's goal",
+    "dayProgress": "Day {{day}} / 30",
+    "completion": "Progress",
+    "goals": {
+      "breathing": "5 minutes of breathing",
+      "walk": "15-minute walk",
+      "journal": "Write in mood journal",
+      "sleep": "Regular bedtime"
+    },
+    "activities": {
+      "meditation": "5 minutes of quiet sitting",
+      "walking": "15-minute walk",
+      "hydration": "8 glasses of water",
+      "sleep": "In bed by 11 PM",
+      "reading": "10 minutes of reading",
+      "breathing": "Breathing exercise"
+    },
+    "tips": {
+      "minimal": "You're doing well. Small regular habits keep the mind steady.",
+      "mild": "Rest a little. You did something good today — write it down.",
+      "moderate": "Don't push yourself today. One small task is enough — a walk or breathing exercise.",
+      "high": "Your most important task today is self-care. Talk to someone if you need to."
+    }
+  },
+  "dashboard": {
+    "title": "Wellness dashboard",
+    "subtitle": "A snapshot of your mind",
+    "wellnessScore": "Wellness score",
+    "stressScore": "Stress score",
+    "moodTrend": "Mood trend",
+    "recoveryProgress": "Plan progress",
+    "dailyActivity": "Daily activity",
+    "charts": {
+      "moodLine": "Mood trend (7 days)",
+      "weeklyBar": "Weekly activity",
+      "riskPie": "Mind indicators",
+      "monthly": "Monthly comparison"
+    },
+    "riskCategories": {
+      "stress": "Stress",
+      "depression": "Low mood",
+      "anxiety": "Anxiety",
+      "burnout": "Burnout",
+      "loneliness": "Loneliness"
+    },
+    "insights": {
+      "title": "AI insights",
+      "disclaimer": "AI-generated suggestions — not treatment",
+      "sleep": "Sleep was low last week — try going to bed a little earlier tonight.",
+      "exercise": "Mood was better on walking days. How about 15 minutes outside today?",
+      "gratitude": "Gratitude writing helped your mood — try one small thing today too."
+    }
+  },
+  "emergency": {
+    "button": "Emergency help",
+    "title": "Crisis support",
+    "subtitle": "You're not alone — you can talk to someone right now",
+    "resources": {
+      "title": "Helplines & support",
+      "helpline1098": {
+        "name": "National Mental Health Helpline",
+        "description": "Free government mental health support — 24/7"
+      },
+      "kaanPeteRoi": {
+        "name": "Kaan Pete Roi",
+        "description": "Free compassionate listening — confidential conversations"
+      },
+      "alapon": {
+        "name": "Alapon Bangladesh",
+        "description": "Mental health support and counseling"
+      }
+    },
+    "trustedPerson": {
+      "title": "Trusted person",
+      "add": "Add",
+      "call": "Call"
+    },
+    "safetyPlan": {
+      "title": "Safety plan",
+      "subtitle": "What to do in hard moments — write it down beforehand",
+      "warningSigns": "Warning signs",
+      "copingStrategies": "Coping strategies",
+      "distractions": "Healthy distractions",
+      "trustedPeople": "Trusted people",
+      "professionalContacts": "Professional contacts",
+      "safeEnvironment": "Safe places",
+      "edit": "Edit",
+      "save": "Save"
+    },
+    "breathing": {
+      "title": "Breathing",
+      "subtitle": "4-7-8 — helps you settle",
+      "inhale": "Breathe in",
+      "hold": "Hold",
+      "exhale": "Breathe out",
+      "start": "Start",
+      "stop": "Stop"
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "editProfile": "Edit profile",
+    "photo": "Photo",
+    "changePhoto": "Change photo",
+    "fullName": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "recoveryEmail": "Recovery email",
+    "recoveryPhone": "Recovery phone",
+    "dateOfBirth": "Date of birth",
+    "gender": "Gender",
+    "country": "Country",
+    "language": "Language",
+    "anonymous": "Anonymous mode",
+    "changePassword": "Change password",
+    "deleteAccount": "Delete account",
+    "deleteConfirm": "Are you sure? All data will be deleted — this cannot be undone.",
+    "privacyControls": "Privacy controls",
+    "notifications": "Notification preferences",
+    "aiMemory": {
+      "title": "AI memory",
+      "description": "Control what the AI remembers",
+      "reset": "Reset memory"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "appearance": {
+      "title": "Appearance",
+      "theme": "Theme",
+      "system": "System",
+      "highContrast": "High contrast"
+    },
+    "language": {
+      "title": "Language",
+      "description": "Choose the app language"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "moodReminder": "Mood reminder",
+      "weeklyReport": "Weekly report",
+      "achievements": "Achievements"
+    },
+    "security": {
+      "title": "Security",
+      "twoFactor": "Two-factor authentication",
+      "sessions": "Active sessions"
+    },
+    "ai": {
+      "title": "AI personality",
+      "tone": "Conversation tone",
+      "toneWarm": "Warm",
+      "toneDirect": "Direct",
+      "toneGentle": "Gentle"
+    },
+    "voice": {
+      "title": "Voice settings",
+      "autoDelete": "Auto-delete recordings"
+    },
+    "dataPrivacy": {
+      "title": "Data & privacy",
+      "export": "Download data",
+      "delete": "Delete all data",
+      "deleteWarning": "This is permanent — all conversations, journals, and reports will be deleted"
+    }
+  },
+  "help": {
+    "title": "Help center",
+    "search": "Search for help…",
+    "faq": "Frequently asked questions",
+    "contact": {
+      "title": "Contact",
+      "email": "support@mon-songlap.app",
+      "submit": "Send message"
+    },
+    "community": "Community",
+    "about": {
+      "title": "About us",
+      "description": "Mon-Songlap is an AI-supported mental health companion for Bangladeshi students."
+    },
+    "privacyPolicy": "Privacy policy",
+    "terms": "Terms of service",
+    "reportProblem": "Report a problem"
+  },
+  "reports": {
+    "title": "Reports",
+    "weekly": {
+      "title": "Weekly report",
+      "summary": "This week you checked in 5 times — average mood 5.8. Mood was better on days you walked and wrote gratitude.",
+      "moodAverage": "Average mood",
+      "checkIns": "Check-ins",
+      "highlights": "Highlights",
+      "highlight1": "Wednesday was your best day",
+      "highlight2": "You meditated 3 days"
+    },
+    "monthly": {
+      "title": "Monthly report",
+      "summary": "Mood was steady this month. Screening score dropped 2 points — small steps are working.",
+      "moodAverage": "Average mood",
+      "assessmentChange": "Screening change",
+      "trends": "Trends"
+    },
+    "yearly": {
+      "title": "Year in review",
+      "comingSoon": "Coming soon"
+    }
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Small wins — encouragement, not pressure",
+    "firstCheckIn": {
+      "title": "First check-in",
+      "description": "You wrote about your mind for the first time — a brave first step"
+    },
+    "weekOfReflection": {
+      "title": "A week of reflection",
+      "description": "7 days of journaling — a beautiful habit of understanding yourself"
+    },
+    "voiceJourney": {
+      "title": "Voice journey",
+      "description": "Your first voice recording — expressing yourself in another way"
+    },
+    "breathingBuddy": {
+      "title": "Breathing buddy",
+      "description": "5 breathing exercises — small steps toward calm"
+    },
+    "unlocked": "Unlocked",
+    "locked": "Not yet unlocked"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications",
+    "markAllRead": "Mark all as read",
+    "moodReminder": {
+      "title": "How is your mind today?",
+      "body": "Take a minute — write in your mood journal"
+    },
+    "weeklyReport": {
+      "title": "Weekly report ready",
+      "body": "See a picture of your mind this week"
+    },
+    "assessmentReminder": {
+      "title": "Time for screening",
+      "body": "It's been 2 weeks — want to check in again?"
+    }
+  }
+}

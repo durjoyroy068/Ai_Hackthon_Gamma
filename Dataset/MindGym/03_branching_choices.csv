@@ -1,0 +1,46 @@
+scenario_id,node_id,choice_text_bn,choice_text_en,next_node_id,score_impact,difficulty_delta
+SCN_001,N1,গভীর শ্বাস নিই এবং এক প্রশ্নে ফোকাস করি,গভীর শ্বাস নিই এবং এক প্রশ্নে ফোকাস করি,N2,"coping:+2,avoidance:0",0
+SCN_001,N1,প্রশ্নপত্র ফেলে দিতে ইচ্ছে করে,প্রশ্নপত্র ফেলে দিতে ইচ্ছে করে,N3,"coping:0,avoidance:+3",1
+SCN_001,N1,হাত তুলে ইনভিজিলেটরকে বলি পানি লাগবে,হাত তুলে ইনভিজিলেটরকে বলি পানি লাগবে,N2,"coping:+1,help_seeking:+2",0
+SCN_001,N2,ধীরে প্রথম উত্তর লিখতে শুরু করি,ধীরে প্রথম উত্তর লিখতে শুরু করি,N4,"coping:+2,clarity:+1",0
+SCN_001,N2,"প্যানিক বাড়ে, হাত কাঁপতে থাকে","প্যানিক বাড়ে, হাত কাঁপতে থাকে",N5,"coping:0,avoidance:+1",0
+SCN_001,N3,বের হয়ে যাই,বের হয়ে যাই,END_FAIL,"coping:0,avoidance:+5",2
+SCN_001,N4,শান্ত হয়ে বাকি পরীক্ষা দিই,শান্ত হয়ে বাকি পরীক্ষা দিই,END_OK,"coping:+3,clarity:+2",-1
+SCN_001,N5,৫-৪-৩-২-১ grounding করি,৫-৪-৩-২-১ grounding করি,N4,"coping:+3,clarity:+1",-1
+SCN_002,N1,একটা গভীর শ্বাস নিয়ে শুরু করি,একটা গভীর শ্বাস নিয়ে শুরু করি,N2,"coping:+2,clarity:+1",0
+SCN_002,N1,অসুস্থ বলে বের হয়ে যাই,অসুস্থ বলে বের হয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_002,N1,টিচারকে বলি এক মিনিট সময় চাই,টিচারকে বলি এক মিনিট সময় চাই,N2,"help_seeking:+2,coping:+1",0
+SCN_002,N2,চোখের contact রেখে প্রথম লাইন বলি,চোখের contact রেখে প্রথম লাইন বলি,END_OK,"coping:+3,clarity:+2",-1
+SCN_003,N1,"শান্তভাবে শুনি, তার অনুভূতি স্বীকার করি","শান্তভাবে শুনি, তার অনুভূতি স্বীকার করি",N2,"coping:+2,empathy:+2",0
+SCN_003,N1,তার উপর দোষ চাপাই,তার উপর দোষ চাপাই,END_FAIL,"avoidance:+2,conflict:+3",1
+SCN_003,N1,"চুপ থাকি, কিছু বলি না","চুপ থাকি, কিছু বলি না",N3,avoidance:+3,0
+SCN_003,N2,সমাধানের জন্য একটা পদক্ষেপ প্রস্তাব করি,সমাধানের জন্য একটা পদক্ষেপ প্রস্তাব করি,END_OK,"coping:+3,clarity:+2",-1
+SCN_003,N3,পরে শান্ত সময়ে কথা বলার প্রস্তাব দিই,পরে শান্ত সময়ে কথা বলার প্রস্তাব দিই,END_OK,"coping:+1,help_seeking:+1",0
+SCN_004,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_004,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_004,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_004,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_005,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_005,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_005,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_005,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_006,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_006,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_006,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_006,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_007,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_007,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_007,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_007,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_008,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_008,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_008,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_008,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_009,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_009,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_009,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_009,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_010,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
+SCN_010,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
+SCN_010,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
+SCN_010,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0

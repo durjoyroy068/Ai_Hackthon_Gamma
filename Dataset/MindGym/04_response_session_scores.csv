@@ -1,0 +1,501 @@
+session_id,user_id,scenario_id,difficulty_level,user_response,response_time_sec,choice_made,clarity_score,coping_score,avoidance_score,overall_score,feedback_text,source
+S0001,U0115,SCN_002,easy,deep breath,9,cope,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0002,U0112,SCN_010,easy,পারব না,35,cope,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0003,U0230,SCN_009,hard,সাহায্য চাই,20,cope,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0004,U0111,SCN_003,medium,পারব না,9,cope,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0005,U0414,SCN_007,easy,talk to friend,32,cope,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0006,U0296,SCN_007,easy,break into steps,7,cope,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0007,U0195,SCN_004,medium,run away,32,help_seek,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0008,U0360,SCN_003,hard,give up,44,cope,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0009,U0237,SCN_010,medium,গভীর শ্বাস,20,avoid,3,5,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0010,U0206,SCN_006,medium,ask for help,7,avoid,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0011,U0203,SCN_010,hard,can't do,32,avoid,5,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0012,U0383,SCN_005,hard,grounding,30,engage,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0013,U0387,SCN_006,easy,একটা কাজ করি,10,avoid,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0014,U0196,SCN_003,hard,পারব না,32,help_seek,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0015,U0394,SCN_009,hard,deep breath,24,cope,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0016,U0489,SCN_005,hard,পারব না,19,avoid,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0017,U0079,SCN_009,medium,talk to friend,13,cope,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0018,U0476,SCN_010,medium,can't do,22,avoid,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0019,U0375,SCN_001,medium,একটা কাজ করি,7,avoid,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0020,U0271,SCN_003,hard,I feel nervous,30,avoid,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0021,U0344,SCN_009,hard,সাহায্য চাই,26,engage,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0022,U0033,SCN_009,medium,okay let me try,4,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0023,U0118,SCN_010,easy,একটা কাজ করি,5,help_seek,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0024,U0277,SCN_002,easy,একটা কাজ করি,39,engage,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0025,U0050,SCN_004,hard,I feel nervous,30,help_seek,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0026,U0345,SCN_007,hard,পারব না,44,cope,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0027,U0128,SCN_001,easy,এড়িয়ে,15,engage,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0028,U0128,SCN_003,easy,পারব না,31,cope,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0029,U0209,SCN_001,medium,deep breath,33,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0030,U0200,SCN_007,medium,ask for help,32,help_seek,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0031,U0112,SCN_007,easy,I feel nervous,40,cope,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0032,U0030,SCN_006,hard,ask for help,8,avoid,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0033,U0062,SCN_002,hard,break into steps,18,cope,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0034,U0105,SCN_010,hard,break into steps,23,avoid,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0035,U0235,SCN_005,medium,এড়িয়ে,7,cope,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0036,U0260,SCN_008,medium,talk to friend,11,help_seek,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0037,U0225,SCN_002,hard,একটা কাজ করি,22,cope,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0038,U0136,SCN_009,easy,run away,9,avoid,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0039,U0105,SCN_005,hard,run away,43,help_seek,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0040,U0325,SCN_009,medium,I feel nervous,20,cope,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0041,U0083,SCN_001,hard,can't do,31,engage,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0042,U0280,SCN_009,easy,deep breath,26,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0043,U0461,SCN_007,easy,grounding,25,avoid,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0044,U0499,SCN_004,hard,talk to friend,12,avoid,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0045,U0378,SCN_003,medium,গভীর শ্বাস,29,avoid,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0046,U0447,SCN_005,easy,গভীর শ্বাস,33,avoid,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0047,U0115,SCN_004,easy,okay let me try,45,avoid,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0048,U0180,SCN_007,hard,can't do,35,engage,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0049,U0092,SCN_009,hard,can't do,19,cope,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0050,U0224,SCN_002,hard,পারব না,35,cope,4,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0051,U0001,SCN_007,hard,সাহায্য চাই,37,avoid,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0052,U0320,SCN_006,medium,পারব না,45,cope,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0053,U0207,SCN_005,hard,run away,21,avoid,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0054,U0316,SCN_004,hard,পারব না,22,engage,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0055,U0221,SCN_009,hard,deep breath,41,help_seek,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0056,U0407,SCN_008,hard,okay let me try,13,cope,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0057,U0116,SCN_005,easy,can't do,12,cope,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0058,U0213,SCN_001,hard,একটা কাজ করি,39,avoid,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0059,U0336,SCN_007,hard,I feel nervous,3,cope,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0060,U0286,SCN_007,easy,একটা কাজ করি,10,engage,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0061,U0314,SCN_003,hard,okay let me try,35,engage,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0062,U0133,SCN_009,easy,okay let me try,43,help_seek,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0063,U0226,SCN_009,easy,I feel nervous,21,avoid,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0064,U0071,SCN_005,easy,can't do,17,engage,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0065,U0170,SCN_003,hard,সাহায্য চাই,32,engage,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0066,U0439,SCN_001,hard,সাহায্য চাই,27,engage,2,4,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0067,U0276,SCN_001,hard,give up,37,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0068,U0015,SCN_008,medium,একটা কাজ করি,24,engage,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0069,U0304,SCN_003,hard,okay let me try,45,cope,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0070,U0026,SCN_002,medium,পারব না,27,help_seek,3,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0071,U0143,SCN_004,medium,okay let me try,19,cope,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0072,U0115,SCN_008,hard,deep breath,7,cope,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0073,U0123,SCN_001,easy,একটা কাজ করি,33,cope,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0074,U0086,SCN_010,hard,সাহায্য চাই,41,cope,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0075,U0476,SCN_003,medium,run away,39,engage,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0076,U0357,SCN_007,medium,সাহায্য চাই,41,cope,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0077,U0036,SCN_010,hard,ask for help,44,help_seek,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0078,U0492,SCN_001,medium,পারব না,43,engage,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0079,U0316,SCN_003,hard,পারব না,33,engage,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0080,U0143,SCN_007,medium,quit,18,engage,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0081,U0436,SCN_010,medium,এড়িয়ে,14,engage,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0082,U0451,SCN_004,hard,give up,20,cope,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0083,U0251,SCN_009,hard,সাহায্য চাই,18,engage,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0084,U0114,SCN_008,medium,okay let me try,18,help_seek,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0085,U0218,SCN_010,hard,give up,38,help_seek,4,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0086,U0119,SCN_006,easy,okay let me try,15,help_seek,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0087,U0142,SCN_002,hard,গভীর শ্বাস,40,help_seek,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0088,U0092,SCN_002,medium,সাহায্য চাই,3,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0089,U0327,SCN_005,medium,ask for help,9,cope,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0090,U0175,SCN_010,easy,run away,6,help_seek,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0091,U0038,SCN_008,hard,talk to friend,43,cope,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0092,U0128,SCN_003,easy,grounding,38,engage,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0093,U0466,SCN_010,medium,একটা কাজ করি,22,engage,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0094,U0321,SCN_005,easy,ask for help,19,cope,3,5,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0095,U0002,SCN_003,medium,একটা কাজ করি,31,engage,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0096,U0360,SCN_005,medium,ask for help,7,avoid,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0097,U0332,SCN_005,easy,সাহায্য চাই,20,avoid,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0098,U0225,SCN_002,easy,ask for help,32,help_seek,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0099,U0225,SCN_007,easy,quit,41,cope,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0100,U0047,SCN_007,easy,can't do,39,cope,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0101,U0470,SCN_005,medium,ask for help,14,engage,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0102,U0171,SCN_008,medium,break into steps,45,cope,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0103,U0148,SCN_003,hard,can't do,28,cope,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0104,U0060,SCN_008,medium,break into steps,35,cope,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0105,U0266,SCN_009,medium,okay let me try,42,engage,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0106,U0475,SCN_008,medium,ask for help,31,engage,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0107,U0160,SCN_002,hard,deep breath,3,engage,3,5,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0108,U0332,SCN_002,easy,একটা কাজ করি,34,help_seek,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0109,U0125,SCN_009,medium,quit,38,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0110,U0142,SCN_007,medium,সাহায্য চাই,24,help_seek,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0111,U0444,SCN_001,easy,run away,31,engage,5,3,4,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0112,U0234,SCN_006,medium,can't do,15,avoid,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0113,U0163,SCN_010,hard,এড়িয়ে,33,engage,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0114,U0258,SCN_007,hard,grounding,24,cope,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0115,U0370,SCN_008,easy,talk to friend,29,avoid,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0116,U0333,SCN_002,easy,I feel nervous,24,engage,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0117,U0121,SCN_006,hard,I feel nervous,21,avoid,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0118,U0228,SCN_002,easy,পারব না,22,cope,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0119,U0192,SCN_001,medium,can't do,12,avoid,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0120,U0088,SCN_009,easy,পারব না,8,engage,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0121,U0237,SCN_010,hard,একটা কাজ করি,19,engage,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0122,U0038,SCN_005,medium,deep breath,25,help_seek,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0123,U0197,SCN_007,medium,quit,9,avoid,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0124,U0012,SCN_007,hard,give up,28,help_seek,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0125,U0398,SCN_001,easy,ask for help,41,help_seek,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0126,U0322,SCN_004,easy,সাহায্য চাই,43,cope,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0127,U0047,SCN_005,medium,okay let me try,23,engage,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0128,U0426,SCN_003,easy,সাহায্য চাই,19,engage,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0129,U0073,SCN_005,easy,can't do,28,help_seek,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0130,U0233,SCN_002,medium,এড়িয়ে,19,engage,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0131,U0013,SCN_006,hard,talk to friend,38,help_seek,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0132,U0466,SCN_010,hard,একটা কাজ করি,22,engage,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0133,U0253,SCN_002,easy,grounding,9,avoid,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0134,U0344,SCN_009,hard,grounding,37,engage,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0135,U0427,SCN_010,medium,grounding,42,engage,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0136,U0228,SCN_005,medium,ask for help,18,help_seek,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0137,U0032,SCN_002,medium,give up,20,avoid,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0138,U0026,SCN_002,medium,okay let me try,18,avoid,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0139,U0417,SCN_010,easy,সাহায্য চাই,24,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0140,U0277,SCN_010,medium,deep breath,14,cope,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0141,U0302,SCN_001,medium,grounding,4,avoid,3,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0142,U0382,SCN_005,easy,ask for help,33,engage,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0143,U0485,SCN_006,hard,talk to friend,5,help_seek,3,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0144,U0219,SCN_008,hard,deep breath,9,engage,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0145,U0034,SCN_008,easy,break into steps,20,help_seek,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0146,U0051,SCN_007,hard,run away,10,avoid,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0147,U0424,SCN_007,medium,okay let me try,28,engage,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0148,U0192,SCN_002,easy,can't do,33,cope,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0149,U0382,SCN_002,hard,break into steps,26,avoid,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0150,U0211,SCN_009,medium,ask for help,45,engage,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0151,U0054,SCN_001,hard,run away,35,avoid,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0152,U0433,SCN_003,hard,I feel nervous,26,cope,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0153,U0015,SCN_005,easy,একটা কাজ করি,20,help_seek,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0154,U0290,SCN_006,hard,give up,28,cope,3,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0155,U0215,SCN_003,medium,deep breath,24,avoid,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0156,U0453,SCN_006,easy,run away,12,avoid,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0157,U0227,SCN_010,hard,ask for help,30,engage,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0158,U0387,SCN_010,hard,okay let me try,10,help_seek,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0159,U0270,SCN_007,hard,talk to friend,22,cope,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0160,U0105,SCN_004,medium,এড়িয়ে,16,avoid,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0161,U0255,SCN_005,hard,run away,30,avoid,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0162,U0257,SCN_003,hard,এড়িয়ে,45,help_seek,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0163,U0010,SCN_002,medium,এড়িয়ে,7,help_seek,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0164,U0149,SCN_010,easy,পারব না,28,cope,5,3,4,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0165,U0046,SCN_006,medium,গভীর শ্বাস,9,avoid,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0166,U0446,SCN_007,medium,এড়িয়ে,24,avoid,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0167,U0464,SCN_006,medium,গভীর শ্বাস,25,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0168,U0089,SCN_004,hard,talk to friend,12,cope,3,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0169,U0349,SCN_003,hard,I feel nervous,44,help_seek,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0170,U0227,SCN_006,hard,grounding,22,help_seek,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0171,U0237,SCN_010,medium,ask for help,5,cope,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0172,U0315,SCN_006,hard,run away,35,engage,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0173,U0310,SCN_008,medium,ask for help,35,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0174,U0259,SCN_001,hard,okay let me try,14,cope,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0175,U0191,SCN_004,medium,okay let me try,27,engage,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0176,U0169,SCN_006,easy,ask for help,38,engage,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0177,U0171,SCN_005,easy,quit,40,avoid,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0178,U0067,SCN_006,hard,run away,8,help_seek,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0179,U0344,SCN_009,hard,এড়িয়ে,36,cope,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0180,U0093,SCN_007,easy,give up,24,engage,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0181,U0152,SCN_004,easy,একটা কাজ করি,35,cope,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0182,U0084,SCN_006,easy,grounding,42,avoid,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0183,U0497,SCN_008,medium,ask for help,42,help_seek,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0184,U0495,SCN_008,medium,একটা কাজ করি,15,help_seek,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0185,U0258,SCN_010,hard,okay let me try,29,avoid,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0186,U0448,SCN_004,medium,grounding,38,cope,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0187,U0140,SCN_009,medium,talk to friend,35,avoid,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0188,U0477,SCN_007,easy,break into steps,29,cope,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0189,U0192,SCN_007,easy,give up,4,help_seek,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0190,U0147,SCN_002,medium,can't do,11,engage,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0191,U0111,SCN_008,easy,deep breath,38,engage,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0192,U0025,SCN_002,easy,run away,29,engage,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0193,U0324,SCN_002,hard,talk to friend,39,avoid,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0194,U0124,SCN_003,hard,run away,29,avoid,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0195,U0200,SCN_002,medium,give up,5,engage,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0196,U0404,SCN_006,easy,quit,25,avoid,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0197,U0280,SCN_002,medium,can't do,44,avoid,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0198,U0033,SCN_008,hard,I feel nervous,32,cope,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0199,U0162,SCN_005,medium,সাহায্য চাই,35,engage,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0200,U0147,SCN_009,medium,I feel nervous,6,help_seek,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0201,U0381,SCN_005,medium,talk to friend,27,help_seek,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0202,U0474,SCN_003,hard,I feel nervous,20,cope,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0203,U0165,SCN_007,easy,break into steps,8,help_seek,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0204,U0086,SCN_005,hard,run away,31,help_seek,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0205,U0141,SCN_008,hard,ask for help,6,cope,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0206,U0488,SCN_007,easy,give up,12,engage,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0207,U0186,SCN_001,medium,grounding,39,cope,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0208,U0191,SCN_010,medium,grounding,7,avoid,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0209,U0128,SCN_009,easy,give up,4,avoid,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0210,U0397,SCN_008,medium,এড়িয়ে,31,avoid,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0211,U0063,SCN_010,easy,run away,7,engage,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0212,U0364,SCN_003,easy,okay let me try,38,help_seek,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0213,U0261,SCN_005,easy,গভীর শ্বাস,10,avoid,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0214,U0284,SCN_003,hard,একটা কাজ করি,26,engage,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0215,U0159,SCN_009,medium,grounding,33,engage,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0216,U0231,SCN_007,medium,break into steps,36,help_seek,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0217,U0426,SCN_003,easy,গভীর শ্বাস,36,avoid,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0218,U0178,SCN_005,hard,গভীর শ্বাস,21,cope,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0219,U0321,SCN_005,medium,সাহায্য চাই,42,cope,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0220,U0338,SCN_009,hard,গভীর শ্বাস,41,help_seek,3,5,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0221,U0486,SCN_010,hard,ask for help,39,help_seek,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0222,U0255,SCN_004,hard,পারব না,37,help_seek,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0223,U0153,SCN_005,medium,I feel nervous,7,cope,5,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0224,U0105,SCN_003,medium,okay let me try,41,avoid,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0225,U0067,SCN_006,medium,can't do,35,cope,5,3,4,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0226,U0231,SCN_006,easy,একটা কাজ করি,12,cope,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0227,U0128,SCN_001,easy,run away,23,help_seek,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0228,U0451,SCN_004,medium,গভীর শ্বাস,34,cope,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0229,U0111,SCN_002,hard,এড়িয়ে,25,cope,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0230,U0147,SCN_001,hard,run away,3,cope,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0231,U0392,SCN_007,medium,grounding,26,cope,4,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0232,U0284,SCN_007,medium,ask for help,7,engage,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0233,U0066,SCN_009,easy,okay let me try,28,help_seek,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0234,U0257,SCN_006,easy,give up,5,cope,5,1,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0235,U0077,SCN_003,hard,can't do,35,avoid,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0236,U0304,SCN_006,medium,can't do,35,engage,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0237,U0170,SCN_010,hard,run away,10,engage,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0238,U0306,SCN_010,medium,run away,19,avoid,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0239,U0076,SCN_001,hard,I feel nervous,18,cope,5,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0240,U0161,SCN_010,medium,talk to friend,12,engage,5,1,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0241,U0447,SCN_004,hard,পারব না,6,avoid,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0242,U0270,SCN_009,medium,সাহায্য চাই,23,avoid,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0243,U0313,SCN_008,medium,can't do,15,avoid,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0244,U0361,SCN_005,easy,run away,34,help_seek,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0245,U0148,SCN_008,easy,give up,39,engage,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0246,U0148,SCN_007,hard,give up,8,help_seek,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0247,U0104,SCN_008,hard,quit,20,help_seek,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0248,U0125,SCN_003,easy,talk to friend,45,avoid,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0249,U0368,SCN_004,medium,ask for help,9,avoid,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0250,U0334,SCN_001,easy,গভীর শ্বাস,21,help_seek,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0251,U0468,SCN_005,easy,ask for help,29,avoid,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0252,U0449,SCN_001,easy,এড়িয়ে,3,help_seek,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0253,U0329,SCN_010,hard,talk to friend,36,engage,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0254,U0170,SCN_003,easy,okay let me try,32,help_seek,2,4,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0255,U0291,SCN_003,hard,deep breath,15,avoid,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0256,U0045,SCN_010,medium,এড়িয়ে,45,cope,4,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0257,U0004,SCN_003,medium,grounding,27,avoid,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0258,U0134,SCN_008,hard,quit,26,avoid,2,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0259,U0208,SCN_001,hard,talk to friend,35,help_seek,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0260,U0113,SCN_002,easy,run away,33,avoid,3,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0261,U0388,SCN_008,hard,give up,45,avoid,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0262,U0040,SCN_004,hard,break into steps,10,cope,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0263,U0168,SCN_009,hard,সাহায্য চাই,31,cope,3,5,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0264,U0415,SCN_004,easy,I feel nervous,32,avoid,5,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0265,U0287,SCN_009,medium,পারব না,22,cope,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0266,U0297,SCN_007,easy,quit,5,engage,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0267,U0479,SCN_006,medium,break into steps,5,help_seek,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0268,U0457,SCN_007,medium,গভীর শ্বাস,31,engage,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0269,U0061,SCN_007,easy,break into steps,37,engage,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0270,U0388,SCN_009,easy,grounding,22,engage,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0271,U0127,SCN_009,medium,পারব না,25,avoid,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0272,U0415,SCN_005,hard,সাহায্য চাই,29,cope,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0273,U0229,SCN_004,hard,সাহায্য চাই,6,avoid,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0274,U0387,SCN_001,easy,এড়িয়ে,11,help_seek,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0275,U0122,SCN_004,medium,can't do,12,avoid,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0276,U0321,SCN_007,hard,run away,30,engage,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0277,U0403,SCN_001,hard,give up,23,engage,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0278,U0387,SCN_007,hard,grounding,33,avoid,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0279,U0469,SCN_004,easy,run away,38,engage,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0280,U0105,SCN_007,medium,grounding,44,cope,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0281,U0027,SCN_008,medium,give up,27,cope,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0282,U0107,SCN_002,medium,সাহায্য চাই,22,cope,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0283,U0469,SCN_004,easy,সাহায্য চাই,41,avoid,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0284,U0195,SCN_007,medium,একটা কাজ করি,37,help_seek,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0285,U0239,SCN_005,easy,quit,33,help_seek,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0286,U0289,SCN_004,easy,give up,12,cope,2,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0287,U0169,SCN_005,easy,পারব না,27,avoid,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0288,U0236,SCN_008,easy,can't do,25,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0289,U0269,SCN_003,easy,I feel nervous,7,cope,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0290,U0035,SCN_001,hard,পারব না,12,cope,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0291,U0338,SCN_004,medium,okay let me try,4,cope,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0292,U0275,SCN_009,medium,পারব না,4,engage,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0293,U0124,SCN_003,easy,talk to friend,42,help_seek,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0294,U0492,SCN_006,medium,quit,32,avoid,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0295,U0048,SCN_004,medium,run away,27,engage,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0296,U0360,SCN_009,easy,I feel nervous,8,engage,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0297,U0118,SCN_007,easy,can't do,39,engage,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0298,U0092,SCN_005,medium,ask for help,4,avoid,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0299,U0154,SCN_010,easy,grounding,39,avoid,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0300,U0197,SCN_010,hard,এড়িয়ে,11,cope,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0301,U0119,SCN_009,easy,give up,24,engage,5,1,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0302,U0252,SCN_006,easy,deep breath,25,engage,5,5,2,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0303,U0396,SCN_007,hard,গভীর শ্বাস,21,avoid,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0304,U0365,SCN_002,hard,break into steps,12,engage,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0305,U0483,SCN_006,medium,give up,31,help_seek,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0306,U0221,SCN_005,medium,talk to friend,38,engage,3,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0307,U0306,SCN_002,hard,deep breath,23,engage,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0308,U0372,SCN_001,hard,run away,18,avoid,2,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0309,U0138,SCN_007,medium,গভীর শ্বাস,12,cope,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0310,U0248,SCN_003,easy,পারব না,26,help_seek,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0311,U0235,SCN_004,easy,I feel nervous,11,help_seek,3,3,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0312,U0412,SCN_001,medium,এড়িয়ে,31,help_seek,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0313,U0246,SCN_007,medium,grounding,14,engage,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0314,U0496,SCN_006,hard,run away,18,help_seek,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0315,U0478,SCN_007,hard,quit,15,avoid,2,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0316,U0225,SCN_009,medium,deep breath,7,engage,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0317,U0130,SCN_008,hard,grounding,12,engage,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0318,U0274,SCN_007,hard,break into steps,29,cope,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0319,U0086,SCN_006,hard,break into steps,42,cope,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0320,U0006,SCN_010,easy,এড়িয়ে,19,avoid,2,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0321,U0238,SCN_009,hard,একটা কাজ করি,40,avoid,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0322,U0213,SCN_006,easy,deep breath,10,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0323,U0267,SCN_006,medium,run away,25,engage,3,2,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0324,U0035,SCN_002,medium,okay let me try,5,cope,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0325,U0477,SCN_001,hard,can't do,18,avoid,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0326,U0119,SCN_009,medium,গভীর শ্বাস,43,avoid,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0327,U0231,SCN_003,hard,পারব না,30,engage,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0328,U0296,SCN_001,easy,সাহায্য চাই,37,avoid,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0329,U0135,SCN_006,hard,can't do,34,help_seek,2,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0330,U0179,SCN_010,medium,এড়িয়ে,32,avoid,2,3,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0331,U0061,SCN_005,easy,break into steps,22,cope,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0332,U0215,SCN_003,hard,give up,11,engage,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0333,U0251,SCN_007,medium,গভীর শ্বাস,11,avoid,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0334,U0488,SCN_006,easy,okay let me try,34,avoid,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0335,U0210,SCN_004,hard,এড়িয়ে,34,engage,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0336,U0408,SCN_008,easy,I feel nervous,21,cope,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0337,U0400,SCN_005,medium,একটা কাজ করি,39,engage,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0338,U0397,SCN_009,hard,talk to friend,26,cope,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0339,U0153,SCN_008,easy,সাহায্য চাই,31,help_seek,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0340,U0108,SCN_006,hard,break into steps,40,help_seek,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0341,U0402,SCN_010,easy,পারব না,16,cope,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0342,U0166,SCN_010,hard,give up,21,help_seek,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0343,U0070,SCN_010,medium,quit,6,help_seek,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0344,U0425,SCN_003,easy,grounding,28,engage,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0345,U0232,SCN_003,easy,quit,43,cope,5,3,4,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0346,U0487,SCN_007,medium,quit,23,cope,5,3,4,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0347,U0408,SCN_002,hard,okay let me try,28,avoid,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0348,U0425,SCN_007,medium,সাহায্য চাই,24,avoid,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0349,U0024,SCN_010,easy,I feel nervous,43,engage,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0350,U0001,SCN_001,medium,talk to friend,15,avoid,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0351,U0129,SCN_005,easy,গভীর শ্বাস,26,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0352,U0220,SCN_001,hard,এড়িয়ে,8,cope,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0353,U0304,SCN_001,easy,সাহায্য চাই,36,engage,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0354,U0441,SCN_001,medium,deep breath,11,engage,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0355,U0053,SCN_002,medium,একটা কাজ করি,26,help_seek,2,4,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0356,U0036,SCN_003,hard,এড়িয়ে,39,cope,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0357,U0322,SCN_010,hard,গভীর শ্বাস,12,engage,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0358,U0072,SCN_010,easy,okay let me try,40,engage,2,3,1,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0359,U0142,SCN_006,hard,পারব না,8,avoid,3,2,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0360,U0106,SCN_009,hard,run away,41,avoid,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0361,U0254,SCN_007,medium,run away,10,avoid,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0362,U0479,SCN_008,medium,break into steps,11,engage,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0363,U0391,SCN_010,medium,পারব না,7,cope,3,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0364,U0021,SCN_010,easy,break into steps,28,help_seek,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0365,U0043,SCN_009,hard,পারব না,37,avoid,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0366,U0499,SCN_005,easy,break into steps,37,help_seek,3,4,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0367,U0030,SCN_007,easy,break into steps,8,engage,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0368,U0342,SCN_002,hard,okay let me try,45,avoid,4,5,1,4.3,Try naming your feeling and one small next step.,synthetic_demo
+S0369,U0084,SCN_002,medium,deep breath,25,help_seek,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0370,U0376,SCN_003,easy,give up,4,help_seek,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0371,U0365,SCN_007,hard,quit,43,cope,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0372,U0256,SCN_008,hard,okay let me try,13,help_seek,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0373,U0117,SCN_003,hard,quit,35,cope,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0374,U0187,SCN_001,medium,deep breath,12,avoid,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0375,U0214,SCN_001,hard,পারব না,23,help_seek,3,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0376,U0092,SCN_002,easy,give up,36,cope,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0377,U0168,SCN_007,easy,break into steps,38,engage,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0378,U0379,SCN_001,hard,give up,18,engage,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0379,U0078,SCN_006,easy,I feel nervous,29,cope,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0380,U0487,SCN_004,medium,give up,3,engage,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0381,U0215,SCN_005,medium,talk to friend,6,avoid,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0382,U0359,SCN_005,medium,break into steps,32,cope,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0383,U0039,SCN_010,hard,talk to friend,39,cope,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0384,U0436,SCN_007,medium,grounding,28,help_seek,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0385,U0484,SCN_006,easy,okay let me try,11,cope,2,4,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0386,U0161,SCN_003,medium,talk to friend,10,help_seek,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0387,U0437,SCN_004,easy,okay let me try,8,avoid,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0388,U0047,SCN_005,hard,ask for help,18,help_seek,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0389,U0420,SCN_007,easy,ask for help,4,engage,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0390,U0412,SCN_008,easy,একটা কাজ করি,10,cope,2,3,2,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0391,U0191,SCN_001,hard,একটা কাজ করি,43,cope,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0392,U0102,SCN_010,hard,quit,31,avoid,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0393,U0026,SCN_002,easy,can't do,39,engage,5,1,3,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0394,U0089,SCN_007,medium,I feel nervous,16,avoid,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0395,U0315,SCN_005,hard,quit,42,avoid,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0396,U0032,SCN_005,easy,I feel nervous,20,engage,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0397,U0323,SCN_003,hard,পারব না,4,engage,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0398,U0468,SCN_006,hard,I feel nervous,35,help_seek,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0399,U0306,SCN_007,easy,quit,4,help_seek,4,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0400,U0499,SCN_001,easy,I feel nervous,9,avoid,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0401,U0392,SCN_004,easy,quit,39,engage,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0402,U0413,SCN_006,hard,গভীর শ্বাস,25,cope,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0403,U0278,SCN_006,medium,grounding,14,engage,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0404,U0011,SCN_001,hard,break into steps,33,cope,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0405,U0471,SCN_006,medium,সাহায্য চাই,6,cope,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0406,U0492,SCN_003,easy,grounding,26,engage,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0407,U0070,SCN_010,easy,talk to friend,30,engage,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0408,U0341,SCN_006,hard,গভীর শ্বাস,14,engage,3,5,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0409,U0486,SCN_005,hard,run away,39,engage,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0410,U0328,SCN_010,hard,ask for help,9,engage,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0411,U0178,SCN_003,medium,can't do,13,cope,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0412,U0128,SCN_006,hard,okay let me try,7,help_seek,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0413,U0198,SCN_005,medium,talk to friend,29,avoid,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0414,U0052,SCN_007,medium,I feel nervous,39,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0415,U0011,SCN_003,medium,okay let me try,19,cope,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0416,U0375,SCN_002,easy,can't do,38,cope,3,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0417,U0483,SCN_006,hard,I feel nervous,13,engage,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0418,U0499,SCN_003,easy,ask for help,29,help_seek,3,3,2,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0419,U0202,SCN_005,hard,run away,38,engage,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0420,U0045,SCN_003,medium,ask for help,45,engage,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0421,U0327,SCN_004,medium,talk to friend,8,engage,3,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0422,U0459,SCN_002,hard,run away,19,cope,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0423,U0190,SCN_009,easy,এড়িয়ে,31,cope,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0424,U0429,SCN_005,medium,okay let me try,39,cope,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0425,U0414,SCN_003,hard,talk to friend,29,avoid,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0426,U0294,SCN_009,easy,ask for help,33,help_seek,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0427,U0062,SCN_002,medium,এড়িয়ে,14,avoid,3,3,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0428,U0041,SCN_004,hard,সাহায্য চাই,30,avoid,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0429,U0045,SCN_003,medium,quit,38,engage,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0430,U0470,SCN_009,easy,can't do,42,engage,5,2,5,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0431,U0474,SCN_002,easy,পারব না,39,cope,2,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0432,U0336,SCN_005,medium,give up,39,engage,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0433,U0317,SCN_001,hard,গভীর শ্বাস,28,cope,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0434,U0382,SCN_007,medium,can't do,20,help_seek,2,3,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0435,U0432,SCN_001,medium,can't do,9,avoid,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0436,U0138,SCN_003,hard,run away,29,cope,4,3,4,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0437,U0389,SCN_004,hard,okay let me try,26,cope,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0438,U0070,SCN_009,hard,গভীর শ্বাস,39,cope,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0439,U0017,SCN_003,medium,সাহায্য চাই,6,help_seek,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0440,U0326,SCN_004,easy,quit,4,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0441,U0492,SCN_006,medium,I feel nervous,40,help_seek,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0442,U0015,SCN_006,medium,গভীর শ্বাস,6,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0443,U0138,SCN_010,hard,সাহায্য চাই,29,cope,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0444,U0308,SCN_001,easy,I feel nervous,17,help_seek,3,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0445,U0217,SCN_010,medium,run away,25,engage,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0446,U0300,SCN_005,easy,সাহায্য চাই,3,help_seek,5,4,2,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0447,U0247,SCN_009,easy,run away,24,help_seek,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0448,U0097,SCN_006,easy,quit,36,avoid,4,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0449,U0370,SCN_001,easy,এড়িয়ে,44,engage,3,3,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0450,U0378,SCN_005,easy,quit,40,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0451,U0260,SCN_006,medium,একটা কাজ করি,13,avoid,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0452,U0372,SCN_005,hard,talk to friend,14,help_seek,4,2,3,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0453,U0216,SCN_002,medium,একটা কাজ করি,26,help_seek,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0454,U0028,SCN_010,hard,run away,40,cope,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0455,U0272,SCN_008,medium,সাহায্য চাই,29,cope,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0456,U0292,SCN_003,medium,grounding,12,help_seek,5,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0457,U0161,SCN_003,hard,break into steps,6,cope,3,4,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0458,U0251,SCN_008,easy,quit,11,engage,3,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0459,U0003,SCN_007,easy,এড়িয়ে,37,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0460,U0347,SCN_006,easy,deep breath,43,avoid,2,4,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0461,U0197,SCN_004,hard,give up,40,help_seek,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0462,U0234,SCN_003,hard,break into steps,36,help_seek,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0463,U0385,SCN_007,easy,grounding,13,engage,4,2,4,1.3,Try naming your feeling and one small next step.,synthetic_demo
+S0464,U0376,SCN_001,easy,একটা কাজ করি,40,avoid,3,3,1,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0465,U0193,SCN_002,hard,give up,19,cope,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0466,U0025,SCN_010,hard,ask for help,10,engage,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0467,U0243,SCN_008,hard,এড়িয়ে,12,avoid,4,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0468,U0340,SCN_001,hard,run away,20,avoid,2,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0469,U0145,SCN_007,easy,talk to friend,9,engage,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0470,U0361,SCN_004,medium,সাহায্য চাই,21,avoid,4,4,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0471,U0170,SCN_001,easy,I feel nervous,3,cope,5,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0472,U0077,SCN_002,easy,talk to friend,35,cope,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0473,U0152,SCN_002,medium,quit,32,cope,5,3,3,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0474,U0411,SCN_002,hard,গভীর শ্বাস,23,engage,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0475,U0340,SCN_002,hard,talk to friend,13,help_seek,3,1,3,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0476,U0191,SCN_006,medium,okay let me try,14,cope,2,5,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0477,U0354,SCN_007,medium,এড়িয়ে,29,avoid,5,2,4,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0478,U0483,SCN_002,easy,grounding,9,engage,2,3,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0479,U0093,SCN_010,hard,I feel nervous,27,help_seek,5,3,5,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0480,U0472,SCN_010,medium,deep breath,10,engage,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0481,U0007,SCN_008,hard,ask for help,36,avoid,4,3,2,2.7,Try naming your feeling and one small next step.,synthetic_demo
+S0482,U0247,SCN_006,medium,talk to friend,45,engage,3,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0483,U0437,SCN_003,medium,ask for help,13,cope,5,3,1,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0484,U0026,SCN_008,hard,can't do,17,engage,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0485,U0411,SCN_007,hard,একটা কাজ করি,31,cope,5,3,2,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0486,U0382,SCN_008,hard,okay let me try,4,cope,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0487,U0423,SCN_007,easy,পারব না,41,help_seek,2,1,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0488,U0187,SCN_009,easy,সাহায্য চাই,17,engage,4,5,2,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0489,U0367,SCN_006,medium,I feel nervous,10,cope,4,3,5,1.7,Try naming your feeling and one small next step.,synthetic_demo
+S0490,U0281,SCN_004,hard,deep breath,26,cope,4,4,2,3.3,Try naming your feeling and one small next step.,synthetic_demo
+S0491,U0055,SCN_001,medium,গভীর শ্বাস,42,avoid,5,4,1,4.0,Try naming your feeling and one small next step.,synthetic_demo
+S0492,U0423,SCN_004,easy,talk to friend,24,cope,5,2,3,2.0,Try naming your feeling and one small next step.,synthetic_demo
+S0493,U0235,SCN_007,hard,ask for help,40,avoid,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0494,U0430,SCN_008,hard,deep breath,33,avoid,5,5,1,4.7,Try naming your feeling and one small next step.,synthetic_demo
+S0495,U0199,SCN_010,hard,গভীর শ্বাস,41,help_seek,2,5,1,3.7,Try naming your feeling and one small next step.,synthetic_demo
+S0496,U0141,SCN_009,medium,এড়িয়ে,24,help_seek,3,2,5,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0497,U0432,SCN_008,hard,grounding,38,help_seek,4,1,4,1.0,Try naming your feeling and one small next step.,synthetic_demo
+S0498,U0352,SCN_009,medium,সাহায্য চাই,11,avoid,4,3,1,3.0,Try naming your feeling and one small next step.,synthetic_demo
+S0499,U0288,SCN_009,medium,can't do,40,engage,4,3,3,2.3,Try naming your feeling and one small next step.,synthetic_demo
+S0500,U0013,SCN_009,medium,run away,12,cope,2,2,3,1.0,Try naming your feeling and one small next step.,synthetic_demo

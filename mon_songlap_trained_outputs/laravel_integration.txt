@@ -1,0 +1,7 @@
+MON-SONGLAP LARAVEL UPDATE GUIDE
+================================
+1. GeminiService.php -> paste improved_system_prompt.txt into systemPrompt()
+2. ChatService.php -> load safety_keywords.json for detectSafetyLevel()
+3. storage/app/ai/ -> place model_*.joblib (use Python microservice OR reimplement rules from keywords)
+4. Optional: Google AI Studio -> upload gemini_finetune.jsonl for Gemini tuning
+5. Re-run this notebook after collecting real Mind Gym session logs
