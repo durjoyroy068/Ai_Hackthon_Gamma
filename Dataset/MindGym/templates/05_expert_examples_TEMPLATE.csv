@@ -1,0 +1,2 @@
+scenario_id,situation,good_response_bn,bad_response_bn,label,why,source
+SCN_001,exam panic mind blank,আমি উদ্বিগ্ন কিন্তু এক প্রশ্নে ফোকাস করার চেষ্টা করব,আমি পারব না চলে যাই,good,coping vs avoidance,expert_labeled

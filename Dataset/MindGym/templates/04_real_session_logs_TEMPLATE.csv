@@ -1,0 +1,2 @@
+session_id,user_id,scenario_id,difficulty_level,user_response,response_time_sec,choice_made,clarity_score,coping_score,avoidance_score,overall_score,feedback_text,source
+S_REAL_001,U0001,SCN_001,medium,প্রথমে শ্বাস নিয়ে এক প্রশ্নে ফোকাস করলাম,45,cope,3,4,1,7.5,ভালো coping পদক্ষেপ,real_beta

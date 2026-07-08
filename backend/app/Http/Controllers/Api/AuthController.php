@@ -5,12 +5,14 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Models\User;
 use App\Models\UserSetting;
+use App\Services\FirebaseAuthService;
 use App\Services\OtpService;
 use App\Services\RecoveryPlanService;
 use App\Support\ApiFormatter;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 use Illuminate\Validation\Rules\Password;
 
 class AuthController extends Controller
@@ -18,6 +20,7 @@ class AuthController extends Controller
     public function __construct(
         private OtpService $otpService,
         private RecoveryPlanService $recoveryPlanService,
+        private FirebaseAuthService $firebaseAuth,
     ) {}
 
     public function register(Request $request): JsonResponse
@@ -76,6 +79,61 @@ class AuthController extends Controller
 
         return response()->json([
             'user' => ApiFormatter::user($user),
+            'token' => $token,
+        ]);
+    }
+
+    public function google(Request $request): JsonResponse
+    {
+        $data = $request->validate([
+            'idToken' => 'required|string',
+            'language' => 'nullable|in:bn,en',
+        ]);
+
+        $claims = $this->firebaseAuth->verifyIdToken($data['idToken']);
+        if (! $claims) {
+            return response()->json(['message' => 'Invalid Google / Firebase token'], 401);
+        }
+
+        $user = User::query()
+            ->where(function ($query) use ($claims) {
+                $query->where('firebase_uid', $claims['uid'])
+                    ->orWhere('email', $claims['email']);
+            })
+            ->first();
+
+        if ($user) {
+            $user->fill([
+                'firebase_uid' => $claims['uid'],
+                'auth_provider' => 'google',
+                'full_name' => $user->full_name ?: $claims['name'],
+                'avatar_url' => $claims['picture'] ?: $user->avatar_url,
+                'email_verified_at' => $claims['email_verified'] ? now() : $user->email_verified_at,
+            ]);
+            $user->save();
+        } else {
+            $user = User::create([
+                'full_name' => $claims['name'],
+                'email' => $claims['email'],
+                'firebase_uid' => $claims['uid'],
+                'auth_provider' => 'google',
+                'password' => Str::password(32),
+                'language' => $data['language'] ?? 'bn',
+                'country' => 'Bangladesh',
+                'age_band' => '18-24',
+                'avatar_url' => $claims['picture'],
+                'onboarding_complete' => true,
+                'email_verified_at' => $claims['email_verified'] ? now() : null,
+            ]);
+
+            UserSetting::create(['user_id' => $user->id]);
+            $this->recoveryPlanService->ensureForUser($user);
+        }
+
+        $token = $user->createToken('api')->plainTextToken;
+
+        return response()->json([
+            'user' => ApiFormatter::user($user->fresh()),
             'token' => $token,
         ]);
     }

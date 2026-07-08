@@ -1,0 +1,54 @@
+{
+  "version": "1.0-interim",
+  "status": "LOCKED_FOR_PRODUCT_USE_PENDING_LICENSED_REVIEW",
+  "effective_from": "2026-07-08",
+  "disclaimer": "Not a licensed clinical endorsement. Evidence-informed interim protocol for product development and beta. Must be reviewed by a qualified psychologist/counselor before public clinical claims.",
+  "evidence_bases": [
+    "CBT exposure/practice principles (safe rehearsal of feared situations)",
+    "Grounding / breath regulation common first-line coping prompts",
+    "Help-seeking and assertive communication as protective skills",
+    "Avoidance reduction as a primary training target"
+  ],
+  "scoring": {
+    "weights": {
+      "coping": 2.0,
+      "clarity": 1.0,
+      "avoidance": -1.0,
+      "help_seeking": 0.5,
+      "empathy": 0.5,
+      "conflict": -0.5
+    },
+    "overall_formula": "clamp(1..10, round(5 + (2*coping + clarity - avoidance + 0.5*help_seeking + 0.5*empathy - 0.5*conflict)/3, 1))",
+    "failed_session_penalty": -2.0,
+    "bands": {
+      "strong": { "min": 7.5, "label_bn": "শক্তিশালী অনুশীলন", "label_en": "Strong practice" },
+      "developing": { "min": 4.5, "label_bn": "উন্নয়নশীল", "label_en": "Developing" },
+      "needs_support": { "min": 1.0, "label_bn": "অতিরিক্ত সাপোর্ট লাগতে পারে", "label_en": "May need more support" }
+    }
+  },
+  "adaptation": {
+    "raise_difficulty_if_avg_gte": 7.5,
+    "lower_difficulty_if_avg_lt": 4.5,
+    "xp_per_score_point": 10,
+    "xp_per_level": 200,
+    "max_level": 5
+  },
+  "crisis": {
+    "high_action": "show_helplines_and_supportive_message",
+    "moderate_action": "soft_nudge_plus_helplines",
+    "never_diagnose": true,
+    "never_provide_method_details": true,
+    "helplines": [
+      { "name": "National Emergency", "phone": "999" },
+      { "name": "Child Helpline", "phone": "1098" },
+      { "name": "Kaan Pete Roi", "phone": "+8809604445555" }
+    ]
+  },
+  "competencies": [
+    { "id": "emotion_labeling", "maps_to": ["clarity"] },
+    { "id": "grounding", "maps_to": ["coping"] },
+    { "id": "assertive_communication", "maps_to": ["coping", "empathy"] },
+    { "id": "help_seeking", "maps_to": ["help_seeking"] },
+    { "id": "avoidance_reduction", "maps_to": ["avoidance"] }
+  ]
+}

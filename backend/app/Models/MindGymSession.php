@@ -11,13 +11,17 @@ class MindGymSession extends Model
     protected $fillable = [
         'user_id', 'scenario_id', 'current_node_id', 'difficulty_level', 'status',
         'coping_score', 'avoidance_score', 'clarity_score', 'overall_score',
-        'feedback_text', 'mood_before', 'mood_after', 'started_at', 'ended_at',
+        'feedback_text', 'scenario_json', 'transcript_json', 'scores_json', 'confidence_signal',
+        'mood_before', 'mood_after', 'started_at', 'ended_at',
     ];
 
     protected function casts(): array
     {
         return [
             'overall_score' => 'float',
+            'scenario_json' => 'array',
+            'transcript_json' => 'array',
+            'scores_json' => 'array',
             'started_at' => 'datetime',
             'ended_at' => 'datetime',
         ];

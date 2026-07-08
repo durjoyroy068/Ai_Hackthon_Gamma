@@ -1,56 +1,123 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
+import toast from 'react-hot-toast'
 import { CheckCircle2, Circle } from 'lucide-react'
 import { TopNav } from '@/components/TopNav'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
+import { Button } from '@/components/ui/button'
 import { useWellnessStore } from '@/features/stores'
-import { apiToggleRecoveryActivity } from '@/lib/api'
+import { apiGetRecoveryPlan, apiToggleRecoveryActivity } from '@/lib/api'
 import { cn } from '@/lib/utils'
 
 const slowTransition = { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] as const }
 
 export function RecoveryPlanPage() {
   const { t } = useTranslation()
-  const { recoveryPlan } = useWellnessStore()
-  const [activityState, setActivityState] = useState<Record<string, boolean>>({})
+  const { recoveryPlan, setRecoveryPlan } = useWellnessStore()
+  const [loading, setLoading] = useState(!recoveryPlan)
+  const [actingId, setActingId] = useState<string | null>(null)
+
+  const loadPlan = async () => {
+    setLoading(true)
+    try {
+      const plan = await apiGetRecoveryPlan()
+      setRecoveryPlan(plan)
+    } catch {
+      toast.error(t('common.error'))
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  useEffect(() => {
+    if (!recoveryPlan) {
+      void loadPlan()
+      return
+    }
+    // Refresh once on open so repaired backend keys are applied.
+    void apiGetRecoveryPlan()
+      .then((plan) => setRecoveryPlan(plan))
+      .catch(() => undefined)
+  }, [])
 
   const currentDay = recoveryPlan?.currentDay ?? 1
   const dayPlan = recoveryPlan?.days.find((d) => d.day === currentDay)
-  const completionPercent = dayPlan?.completedPercent ?? 0
 
-  const activities = useMemo(() => {
-    if (!dayPlan) return []
-    return dayPlan.activities.map((a) => ({
-      ...a,
-      completed: activityState[a.id] ?? a.completed,
-    }))
-  }, [dayPlan, activityState])
+  const activities = useMemo(() => dayPlan?.activities ?? [], [dayPlan])
 
   const localCompletion = useMemo(() => {
-    if (activities.length === 0) return completionPercent
+    if (!dayPlan) return 0
+    if (activities.length === 0) return dayPlan.completedPercent ?? 0
     const done = activities.filter((a) => a.completed).length
     return Math.round((done / activities.length) * 100)
-  }, [activities, completionPercent])
+  }, [activities, dayPlan])
 
   const toggleActivity = async (id: string, checked: boolean) => {
-    setActivityState((prev) => ({ ...prev, [id]: checked }))
+    if (!recoveryPlan || !dayPlan) return
+    setActingId(id)
+
+    const previous = recoveryPlan
+    const nextDays = recoveryPlan.days.map((d) => {
+      if (d.day !== currentDay) return d
+      const nextActivities = d.activities.map((a) =>
+        a.id === id ? { ...a, completed: checked } : a
+      )
+      const done = nextActivities.filter((a) => a.completed).length
+      const total = nextActivities.length
+      return {
+        ...d,
+        activities: nextActivities,
+        completedPercent: total > 0 ? Math.round((done / total) * 100) : 0,
+      }
+    })
+    setRecoveryPlan({ ...recoveryPlan, days: nextDays })
+
     try {
-      await apiToggleRecoveryActivity(id, checked)
+      const result = await apiToggleRecoveryActivity(id, checked)
+      const latest = useWellnessStore.getState().recoveryPlan ?? {
+        ...recoveryPlan,
+        days: nextDays,
+      }
+      setRecoveryPlan({
+        ...latest,
+        days: latest.days.map((d) =>
+          d.day === currentDay
+            ? { ...d, completedPercent: result.completedPercent ?? d.completedPercent }
+            : d
+        ),
+      })
     } catch {
-      setActivityState((prev) => ({ ...prev, [id]: !checked }))
+      setRecoveryPlan(previous)
+      toast.error(t('common.error'))
+    } finally {
+      setActingId(null)
     }
+  }
+
+  if (loading && !recoveryPlan) {
+    return (
+      <>
+        <TopNav />
+        <main className="flex flex-1 items-center justify-center p-6">
+          <p className="text-muted">{t('common.loading')}</p>
+        </main>
+      </>
+    )
   }
 
   if (!recoveryPlan || !dayPlan) {
     return (
       <>
         <TopNav />
-        <main className="flex flex-1 items-center justify-center p-6">
-          <p className="text-muted">{t('common.loading')}</p>
+        <main className="flex flex-1 flex-col items-center justify-center gap-4 p-6">
+          <p className="text-muted">{t('recovery.empty')}</p>
+          <Button onClick={loadPlan} disabled={loading}>
+            {t('recovery.loadRetry')}
+          </Button>
         </main>
       </>
     )
@@ -121,6 +188,7 @@ export function RecoveryPlanPage() {
                   <Checkbox
                     id={activity.id}
                     checked={activity.completed}
+                    disabled={actingId === activity.id}
                     onCheckedChange={(v) => toggleActivity(activity.id, v === true)}
                   />
                   <Label htmlFor={activity.id} className="flex-1 cursor-pointer">

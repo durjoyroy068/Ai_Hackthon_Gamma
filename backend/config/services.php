@@ -41,4 +41,19 @@ return [
         'model' => env('GEMINI_MODEL', 'gemini-2.5-flash'),
     ],
 
+    'groq' => [
+        'api_keys' => array_values(array_filter(array_map(
+            'trim',
+            explode(',', (string) env('GROQ_API_KEYS', ''))
+        ))),
+        'base_url' => env('GROQ_BASE_URL', 'https://api.groq.com/openai/v1'),
+        'model' => env('GROQ_MODEL', 'llama-3.3-70b-versatile'),
+    ],
+
+    'firebase' => [
+        'web_api_key' => env('FIREBASE_WEB_API_KEY'),
+        'project_id' => env('FIREBASE_PROJECT_ID', 'monsonglap'),
+        'auth_domain' => env('FIREBASE_AUTH_DOMAIN', 'monsonglap.firebaseapp.com'),
+    ],
+
 ];

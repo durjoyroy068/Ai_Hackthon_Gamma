@@ -190,6 +190,61 @@ export interface MindGymScenario {
 export interface MindGymChoice {
   id: string
   text: string
+  quality?: 'helpful' | 'mixed' | 'unhelpful'
+  safetyHint?: string
+}
+
+export interface MindGymChoiceFeedback {
+  quality: 'helpful' | 'mixed' | 'unhelpful'
+  title: string
+  message: string
+  betterAlternative?: string | null
+}
+
+export interface MindGymIntakeQuestion {
+  id: string
+  promptBn: string
+  promptEn: string
+  options: Array<{ id: string; labelBn: string; labelEn: string }>
+}
+
+export interface MindGymIntake {
+  intro: string
+  welcomeBn?: string
+  welcomeEn?: string
+  questions: MindGymIntakeQuestion[]
+  safeNoteBn: string
+  safeNoteEn: string
+}
+
+export interface MindGymScenarioProfile {
+  problem: string
+  difficulty: string
+  goal: string
+  intensity?: number
+  priorExperience?: string | null
+  imageUrl?: string
+  imagePrompt?: string
+}
+
+export interface MindGymStoryBeat {
+  dialogue?: string
+  emotion_tag?: string
+  narration: string
+  challenge?: string
+  askPrompt: string
+  imageUrl: string
+  turn: number
+  isComplete: boolean
+  questionNumber?: number
+  targetQuestions?: number
+  scorePreview?: {
+    confidence: number
+    communication: number
+    decision_making: number
+    problem_solving: number
+    calmness: number
+  }
 }
 
 export interface MindGymSessionState {
@@ -211,8 +266,31 @@ export interface MindGymSessionState {
     avoidance: number
     clarity: number
     overall: number | null
+    dimensions?: {
+      tone_control: number
+      clarity: number
+      decision_quality: number
+      pacing: number
+      confidence_signal: number
+      overall_weighted?: number
+    }
   }
+  scenarioContract?: Record<string, unknown> | null
+  transcript?: Array<{ t?: string; type: string; payload?: Record<string, unknown> }>
+  confidenceSignal?: 'low' | 'medium' | 'high' | string | null
   feedback: string | null
+  safetyLevel?: 'none' | 'moderate' | 'high'
+  choiceFeedback?: MindGymChoiceFeedback | null
+  coachSummary?: {
+    strength: string
+    focusArea: string
+    pacingSecondsPerChoice: number | null
+    pacingTip: string
+    choiceCount: number
+    suggestedNextDifficulty: string
+    xpEarned: number
+  } | null
+  storyBeat?: MindGymStoryBeat | null
   isComplete: boolean
 }
 
@@ -223,4 +301,17 @@ export interface MindGymProgress {
   sessionsCompleted: number
   avgScore: number
   unlockedScenarios: string[]
+}
+
+export interface MindGymNpcTurnResponse {
+  dialogue: string
+  emotion_tag: string
+  internal_difficulty_adjust: number
+  narration?: string
+  challenge?: string
+  askPrompt?: string
+  imageUrl?: string
+  turn?: number
+  isComplete?: boolean
+  scorePreview?: MindGymStoryBeat['scorePreview']
 }

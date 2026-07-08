@@ -13,7 +13,7 @@ class GeminiService
 
     public function isConfigured(): bool
     {
-        return filled(config('services.gemini.api_key'));
+        return $this->hasGroqKeys() || filled(config('services.gemini.api_key'));
     }
 
     public function generateChatResponse(Conversation $conversation, string $userMessage, User $user): ?string
@@ -40,26 +40,17 @@ class GeminiService
             'parts' => [['text' => $userMessage]],
         ];
 
-        $model = config('services.gemini.model');
-        $baseUrl = rtrim(config('services.gemini.base_url'), '/');
-        $url = "{$baseUrl}/models/{$model}:generateContent";
+        $systemPrompt = $this->systemPrompt($user);
+
+        if ($this->hasGroqKeys()) {
+            $groqResponse = $this->generateViaGroq($conversation, $userMessage, $systemPrompt);
+            if (filled($groqResponse)) {
+                return $groqResponse;
+            }
+        }
 
         try {
-            $response = Http::withHeaders([
-                'x-goog-api-key' => config('services.gemini.api_key'),
-                'Content-Type' => 'application/json',
-            ])
-                ->timeout(60)
-                ->post($url, [
-                    'systemInstruction' => [
-                        'parts' => [['text' => $this->systemPrompt($user)]],
-                    ],
-                    'contents' => $contents,
-                    'generationConfig' => [
-                        'temperature' => 0.7,
-                        'maxOutputTokens' => 1024,
-                    ],
-                ]);
+            $response = $this->generateViaGemini($contents, $systemPrompt);
 
             if (! $response->successful()) {
                 Log::warning('Gemini API error', [
@@ -86,5 +77,95 @@ class GeminiService
         $tone = $user->settings?->ai_tone ?? 'warm';
 
         return $this->aiConfig->buildSystemPrompt($language, $tone);
+    }
+
+    private function hasGroqKeys(): bool
+    {
+        return count($this->groqApiKeys()) > 0;
+    }
+
+    /** @return array<int, string> */
+    private function groqApiKeys(): array
+    {
+        $keys = config('services.groq.api_keys', []);
+
+        return array_values(array_filter($keys, static fn ($k) => filled($k)));
+    }
+
+    private function generateViaGroq(Conversation $conversation, string $userMessage, string $systemPrompt): ?string
+    {
+        $messages = [['role' => 'system', 'content' => $systemPrompt]];
+
+        foreach ($conversation->messages()->orderBy('created_at')->get() as $message) {
+            if ($message->role === 'system') {
+                continue;
+            }
+
+            $messages[] = [
+                'role' => $message->role === 'assistant' ? 'assistant' : 'user',
+                'content' => $message->content,
+            ];
+        }
+
+        $messages[] = ['role' => 'user', 'content' => $userMessage];
+
+        $model = config('services.groq.model');
+        $url = rtrim(config('services.groq.base_url'), '/').'/chat/completions';
+
+        foreach ($this->groqApiKeys() as $index => $key) {
+            try {
+                $response = Http::withHeaders([
+                    'Authorization' => 'Bearer '.$key,
+                    'Content-Type' => 'application/json',
+                ])->timeout(60)->post($url, [
+                    'model' => $model,
+                    'messages' => $messages,
+                    'temperature' => 0.7,
+                    'max_tokens' => 1024,
+                ]);
+
+                if ($response->successful()) {
+                    $text = $response->json('choices.0.message.content');
+
+                    return filled($text) ? trim($text) : null;
+                }
+
+                Log::warning('Groq API key failed', [
+                    'key_index' => $index + 1,
+                    'status' => $response->status(),
+                    'body' => $response->body(),
+                ]);
+            } catch (\Throwable $e) {
+                Log::warning('Groq API exception for key', [
+                    'key_index' => $index + 1,
+                    'message' => $e->getMessage(),
+                ]);
+            }
+        }
+
+        return null;
+    }
+
+    private function generateViaGemini(array $contents, string $systemPrompt)
+    {
+        $model = config('services.gemini.model');
+        $baseUrl = rtrim(config('services.gemini.base_url'), '/');
+        $url = "{$baseUrl}/models/{$model}:generateContent";
+
+        return Http::withHeaders([
+            'x-goog-api-key' => config('services.gemini.api_key'),
+            'Content-Type' => 'application/json',
+        ])
+            ->timeout(60)
+            ->post($url, [
+                'systemInstruction' => [
+                    'parts' => [['text' => $systemPrompt]],
+                ],
+                'contents' => $contents,
+                'generationConfig' => [
+                    'temperature' => 0.7,
+                    'maxOutputTokens' => 1024,
+                ],
+            ]);
     }
 }

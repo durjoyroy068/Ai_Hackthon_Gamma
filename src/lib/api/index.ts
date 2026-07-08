@@ -32,6 +32,15 @@ export async function apiLogin(email: string, password: string): Promise<User> {
   return user
 }
 
+export async function apiGoogleLogin(idToken: string, language?: 'bn' | 'en'): Promise<User> {
+  const { user, token } = await apiRequest<AuthResponse>('/auth/google', {
+    method: 'POST',
+    body: JSON.stringify({ idToken, language }),
+  })
+  setToken(token)
+  return user
+}
+
 export async function apiRegister(data: Partial<User> & { password?: string }): Promise<User> {
   const { user, token } = await apiRequest<AuthResponse>('/auth/register', {
     method: 'POST',
@@ -124,18 +133,28 @@ export async function apiStreamChat(
   userMessage: import('@/types').ChatMessage
   assistantMessage: import('@/types').ChatMessage
 }> {
-  const res = await apiRequest<{
-    responseText: string
-    userMessage: import('@/types').ChatMessage
-    assistantMessage: import('@/types').ChatMessage
-  }>(`/conversations/${conversationId}/messages`, {
-    method: 'POST',
-    body: JSON.stringify({ content: message }),
-  })
+  const controller = new AbortController()
+  const timeout = window.setTimeout(() => controller.abort(), 70000)
 
-  await simulateStream(res.responseText, onChunk)
+  try {
+    const res = await apiRequest<{
+      responseText: string
+      userMessage: import('@/types').ChatMessage
+      assistantMessage: import('@/types').ChatMessage
+    }>(`/conversations/${conversationId}/messages`, {
+      method: 'POST',
+      body: JSON.stringify({ content: message }),
+      signal: controller.signal,
+    })
 
-  return res
+    const text = res.responseText || ''
+    // Fast local typing effect so the UI never feels frozen.
+    await simulateStream(text, onChunk, 18)
+
+    return res
+  } finally {
+    window.clearTimeout(timeout)
+  }
 }
 
 export async function apiCreateConversation(title?: string): Promise<Conversation> {
@@ -247,11 +266,15 @@ export async function apiUpdateSafetyPlan(plan: import('@/types').SafetyPlan): P
   })
 }
 
+export async function apiGetRecoveryPlan(): Promise<import('@/types').RecoveryPlan> {
+  return apiRequest('/recovery-plan')
+}
+
 export async function apiToggleRecoveryActivity(
   activityId: string,
   completed: boolean
-): Promise<void> {
-  await apiRequest(`/recovery-plan/activities/${activityId}`, {
+): Promise<{ success: boolean; completedPercent: number }> {
+  return apiRequest(`/recovery-plan/activities/${activityId}`, {
     method: 'PATCH',
     body: JSON.stringify({ completed }),
   })
@@ -279,13 +302,61 @@ export async function apiGetMindGymProgress(): Promise<import('@/types').MindGym
   return apiRequest('/mind-gym/progress')
 }
 
+export async function apiGetMindGymAnalytics(): Promise<{
+  protocol: { version: string; status: string; effectiveFrom?: string; disclaimer?: string }
+  totalSessions: number
+  uniqueUsers: number
+  avgOverallScore: number
+  completionRate: number
+  betaFeedbackCount: number
+  byCategory: Array<{ category: string; sessions: number; avgScore: number; completionRate: number }>
+  corpusNote?: string
+}> {
+  return apiRequest('/mind-gym/analytics')
+}
+
+export async function apiGetMindGymProtocol(): Promise<{
+  version: string
+  status: string
+  effectiveFrom?: string
+  disclaimer?: string
+}> {
+  return apiRequest('/mind-gym/protocol')
+}
+
+export async function apiGetMindGymIntake(): Promise<import('@/types').MindGymIntake> {
+  return apiRequest('/mind-gym/intake')
+}
+
+export async function apiMindGymRecommend(answers: Record<string, string>): Promise<{
+  scenarioId: string
+  category: string
+  difficulty: string
+  title: string
+  setting: string
+  rationale: string
+  profile?: import('@/types').MindGymScenarioProfile
+  openingBeat?: import('@/types').MindGymStoryBeat
+  scenarios: import('@/types').MindGymScenario[]
+}> {
+  return apiRequest('/mind-gym/recommend', {
+    method: 'POST',
+    body: JSON.stringify({ answers }),
+  })
+}
+
 export async function apiStartMindGymSession(
   scenarioId: string,
-  moodBefore?: number
+  moodBefore?: number,
+  language?: 'bn' | 'en'
 ): Promise<import('@/types').MindGymSessionState> {
   return apiRequest('/mind-gym/sessions', {
     method: 'POST',
-    body: JSON.stringify({ scenarioId: Number(scenarioId), moodBefore }),
+    body: JSON.stringify({
+      scenarioId: Number(scenarioId),
+      moodBefore,
+      language: language ?? 'bn',
+    }),
   })
 }
 
@@ -307,5 +378,29 @@ export async function apiMindGymReflect(
   return apiRequest(`/mind-gym/sessions/${sessionId}/reflect`, {
     method: 'POST',
     body: JSON.stringify({ reflection, moodAfter }),
+  })
+}
+
+export async function apiMindGymNpcTurn(
+  studentInput: string,
+  context?: { difficulty?: number; category?: string; nodeId?: string; turn?: number; language?: string }
+): Promise<import('@/types').MindGymNpcTurnResponse> {
+  return apiRequest('/mind-gym/npc-turn', {
+    method: 'POST',
+    body: JSON.stringify({ studentInput, context }),
+  })
+}
+
+export async function apiMindGymStoryTurn(
+  sessionId: string,
+  studentInput: string,
+  language?: 'bn' | 'en'
+): Promise<import('@/types').MindGymSessionState> {
+  return apiRequest(`/mind-gym/sessions/${sessionId}/story`, {
+    method: 'POST',
+    body: JSON.stringify({
+      studentInput,
+      language: language ?? 'bn',
+    }),
   })
 }

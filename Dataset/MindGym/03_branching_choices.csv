@@ -1,46 +1,50 @@
 scenario_id,node_id,choice_text_bn,choice_text_en,next_node_id,score_impact,difficulty_delta
-SCN_001,N1,গভীর শ্বাস নিই এবং এক প্রশ্নে ফোকাস করি,গভীর শ্বাস নিই এবং এক প্রশ্নে ফোকাস করি,N2,"coping:+2,avoidance:0",0
-SCN_001,N1,প্রশ্নপত্র ফেলে দিতে ইচ্ছে করে,প্রশ্নপত্র ফেলে দিতে ইচ্ছে করে,N3,"coping:0,avoidance:+3",1
-SCN_001,N1,হাত তুলে ইনভিজিলেটরকে বলি পানি লাগবে,হাত তুলে ইনভিজিলেটরকে বলি পানি লাগবে,N2,"coping:+1,help_seeking:+2",0
-SCN_001,N2,ধীরে প্রথম উত্তর লিখতে শুরু করি,ধীরে প্রথম উত্তর লিখতে শুরু করি,N4,"coping:+2,clarity:+1",0
-SCN_001,N2,"প্যানিক বাড়ে, হাত কাঁপতে থাকে","প্যানিক বাড়ে, হাত কাঁপতে থাকে",N5,"coping:0,avoidance:+1",0
-SCN_001,N3,বের হয়ে যাই,বের হয়ে যাই,END_FAIL,"coping:0,avoidance:+5",2
-SCN_001,N4,শান্ত হয়ে বাকি পরীক্ষা দিই,শান্ত হয়ে বাকি পরীক্ষা দিই,END_OK,"coping:+3,clarity:+2",-1
-SCN_001,N5,৫-৪-৩-২-১ grounding করি,৫-৪-৩-২-১ grounding করি,N4,"coping:+3,clarity:+1",-1
-SCN_002,N1,একটা গভীর শ্বাস নিয়ে শুরু করি,একটা গভীর শ্বাস নিয়ে শুরু করি,N2,"coping:+2,clarity:+1",0
-SCN_002,N1,অসুস্থ বলে বের হয়ে যাই,অসুস্থ বলে বের হয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_002,N1,টিচারকে বলি এক মিনিট সময় চাই,টিচারকে বলি এক মিনিট সময় চাই,N2,"help_seeking:+2,coping:+1",0
-SCN_002,N2,চোখের contact রেখে প্রথম লাইন বলি,চোখের contact রেখে প্রথম লাইন বলি,END_OK,"coping:+3,clarity:+2",-1
-SCN_003,N1,"শান্তভাবে শুনি, তার অনুভূতি স্বীকার করি","শান্তভাবে শুনি, তার অনুভূতি স্বীকার করি",N2,"coping:+2,empathy:+2",0
-SCN_003,N1,তার উপর দোষ চাপাই,তার উপর দোষ চাপাই,END_FAIL,"avoidance:+2,conflict:+3",1
-SCN_003,N1,"চুপ থাকি, কিছু বলি না","চুপ থাকি, কিছু বলি না",N3,avoidance:+3,0
-SCN_003,N2,সমাধানের জন্য একটা পদক্ষেপ প্রস্তাব করি,সমাধানের জন্য একটা পদক্ষেপ প্রস্তাব করি,END_OK,"coping:+3,clarity:+2",-1
-SCN_003,N3,পরে শান্ত সময়ে কথা বলার প্রস্তাব দিই,পরে শান্ত সময়ে কথা বলার প্রস্তাব দিই,END_OK,"coping:+1,help_seeking:+1",0
-SCN_004,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_004,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_004,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_004,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_005,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_005,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_005,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_005,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_006,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_006,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_006,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_006,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_007,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_007,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_007,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_007,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_008,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_008,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_008,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_008,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_009,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_009,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_009,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_009,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
-SCN_010,N1,একটা ছোট coping step নিই,একটা ছোট coping step নিই,N2,coping:+2,0
-SCN_010,N1,এড়িয়ে যাই,এড়িয়ে যাই,END_FAIL,avoidance:+4,1
-SCN_010,N2,কাউকে সাহায্য চাই,কাউকে সাহায্য চাই,END_OK,"help_seeking:+3,coping:+2",-1
-SCN_010,N2,নিজে handle করার চেষ্টা করি,নিজে handle করার চেষ্টা করি,END_OK,"coping:+2,clarity:+1",0
+SCN_001,N1,"গভীর শ্বাস নিই — কাঁধ নামিয়ে এক প্রশ্নেই ফোকাস করি এবং বাকিটা পরে দেখব","I take a deep breath drop my shoulders and focus only on one question for now",N2,"coping:+2,clarity:+1",0
+SCN_001,N1,"মনে হচ্ছে আর সামলাতে পারছি না — প্রশ্নপত্র ফেলে হল থেকে বের হয়ে যেতে ইচ্ছে করে","I feel I cannot handle this — I want to leave the exam hall right now",N3,"coping:0,avoidance:+3",1
+SCN_001,N1,"হাত তুলে ইনভিজিলেটরকে শান্তভাবে বলি একটু পানি লাগবে এবং এক মিনিট সময় চাই","I calmly raise my hand and ask the invigilator for water and one minute",N2,"coping:+1,help_seeking:+2",0
+SCN_001,N2,"ধীরে ধীরে প্রথম উত্তরের এক লাইন লেখা শুরু করি — নিখুঁত না হলেও চলবে","I slowly start writing the first line of the answer even if it is imperfect",N4,"coping:+2,clarity:+1",0
+SCN_001,N2,"প্যানিক বাড়ে হাত কাঁপতে থাকে — চিন্তা ঘুরতে থাকে যে আমি ফেল করব","Panic grows and my hands keep shaking — thoughts loop that I will fail",N5,"coping:0,avoidance:+1",0
+SCN_001,N3,"পরীক্ষা ছেড়ে হল থেকে বের হয়ে যাই এবং পরে আর ফিরে আসি না","I leave the exam hall and do not come back",END_FAIL,"coping:0,avoidance:+5",2
+SCN_001,N4,"নিজেকে মনে করিয়ে দিই একটা প্রশ্ন পুরো পরীক্ষা নয় — শান্ত হয়ে বাকিটা দিই","I remind myself one hard question is not the whole exam and finish calmly",END_OK,"coping:+3,clarity:+2",-1
+SCN_001,N5,"৫-৪-৩-২-১ গ্রাউন্ডিং করি — চোখে দেখা পাঁচটা জিনিস নাম করি তারপর লিখি","I do grounding — name five things I see then return to writing",N4,"coping:+3,clarity:+1",-1
+SCN_002,N1,"একটা গভীর শ্বাস নিয়ে সবাইকে ছোট greeting দিয়ে ধীরে শুরু করি","I take a deep breath give a short greeting and begin slowly",N2,"coping:+2,clarity:+1",0
+SCN_002,N1,"অসুস্থ বলে প্রেজেন্টেশন এড়িয়ে ক্লাস থেকে বের হয়ে যাই","I say I am sick and leave the class to avoid presenting",END_FAIL,"avoidance:+4",1
+SCN_002,N1,"টিচারকে স্পষ্ট করে বলি এক মিনিট সময় চাই — তারপর শুরু করব","I clearly ask the teacher for one minute and then I will start",N2,"help_seeking:+2,coping:+1",0
+SCN_002,N2,"চোখের দৃষ্টি রেখে প্রথম লাইন বলে introduction-এ ঢুকি এবং স্লাইড দেখাই","I say the first line with eye contact enter the introduction and show the slide",END_OK,"coping:+3,clarity:+2",-1
+SCN_003,N1,"শান্তভাবে শুনি তার কথা শেষ হতে দিই তারপর বলি আমি বুঝতে পারছি তুমি চাপে আছ","I listen calmly let them finish then say I can see you are under pressure",N2,"coping:+2,empathy:+2",0
+SCN_003,N1,"রাগ করে তার উপর দোষ চাপাই এবং বলি তুইই আসলে সমস্যা","I blame them angrily and say they are the real problem",END_FAIL,"avoidance:+2,conflict:+3",1
+SCN_003,N1,"চুপ থাকি কিছু বলি না — ভিতরে রাগ জমে কিন্তু মুখ খুলি না","I stay silent and say nothing while anger builds inside",N3,"avoidance:+3",0
+SCN_003,N2,"সমাধানের জন্য একটা স্পষ্ট পদক্ষেপ প্রস্তাব করি — কে কী করবে তা ভাগ করি","I propose one clear next step and divide who will do what",END_OK,"coping:+3,clarity:+2",-1
+SCN_003,N3,"পরে শান্ত সময়ে আবার কথা বলার প্রস্তাব দিই যেন ঝগড়া না বাড়ে","I suggest talking again later when we are calmer so the fight does not grow",END_OK,"coping:+1,help_seeking:+1",0
+SCN_004,N1,"কাজটা তিনটা ছোট ধাপে ভাগ করি এবং শুধু প্রথম ধাপ এখন শেষ করার টার্গেট দিই","I break the work into three small steps and aim to finish only the first step now",N2,"coping:+2,clarity:+2",0
+SCN_004,N1,"ল্যাপটপ বন্ধ করে ঘুমিয়ে পড়ি — কাল যা হয় তাই হবে বলে এড়িয়ে যাই","I shut the laptop and sleep saying whatever happens tomorrow — pure avoidance",END_FAIL,"avoidance:+4,coping:0",1
+SCN_004,N1,"রুমমেটকে বলি আমি আটকে গেছি — একটু সাহায্য বা নজর রাখতে বলি","I tell my roommate I am stuck and ask for a little help or accountability",N2,"help_seeking:+2,coping:+1",0
+SCN_004,N2,"২৫ মিনিট টাইমার দিয়ে একটা ধাপ শেষ করি তারপর ছোট বিরতি নিই","I set a 25-minute timer finish one step then take a short break",N3,"coping:+3,clarity:+1",0
+SCN_004,N2,"সোশ্যাল মিডিয়ায় ঘুরি — চাপ থেকে পালাতে মন ঘুরিয়ে দিই","I scroll social media to escape the pressure and distract myself",N4,"avoidance:+3,coping:0",0
+SCN_004,N3,"সবচেয়ে জরুরি অংশটা আগে শেষ করি এবং বাকিটা সম্ভব হলে পরে করে নেব","I finish the most urgent part first and leave the rest for later if needed",END_OK,"coping:+3,clarity:+2",-1
+SCN_004,N4,"অসুবিধা বুঝিয়ে ক্লাসমেটকে মেসেজ করি যেন একটা ছোট ক্ল্যারিফিকেশন পাই","I message a classmate explaining I am stuck so I can get one small clarification",N3,"help_seeking:+2,coping:+1",0
+SCN_005,N1,"পাশের টেবিলে হাসিমুখে জিজ্ঞেস করি — একটু বসতে পারি কি","I smile and ask the nearby table if I can sit with them for a bit",N2,"coping:+2,help_seeking:+1",0
+SCN_005,N1,"ফোনে ভিডিও দেখি এবং বলি একা থাকাই ভালো — সামাজিক যোগাযোগ এড়াই","I watch phone videos and tell myself alone is better — avoiding social contact",END_FAIL,"avoidance:+4,coping:0",1
+SCN_005,N1,"লাইব্রেরিতে গিয়ে শান্ত পরিবেশে বসি — চাপ কমালে পরে কথা বলতে পারব","I go to the library for a calmer space then I may talk to someone later",N2,"coping:+1,clarity:+1",0
+SCN_005,N2,"নিজের নাম ও বিভাগ বলে ছোট করে পরিচয় দিই এবং একটা সহজ প্রশ্ন করি","I introduce myself with name and department and ask one simple question",END_OK,"coping:+3,clarity:+1",-1
+SCN_006,N1,"ফোন একপাশে রেখে তিনবার ধীর শ্বাস নিই এবং বডি স্ক্যান করি","I put the phone aside take three slow breaths and scan my body",N2,"coping:+2,clarity:+1",0
+SCN_006,N1,"বারবার রিফ্রেশ করি — ফলাফল এখনই দেখতে হবে নাহলে আরও খারাপ ভাবি","I keep refreshing because I must see results now or I imagine worse",N3,"avoidance:+2,coping:0",0
+SCN_006,N1,"বন্ধুকে কল করে বলি আমি খুব টেনশনে আছি এবং শুধু শুনতে বলি","I call a friend say I am tense and ask them just to listen",N2,"help_seeking:+3,coping:+1",0
+SCN_006,N2,"মনে করিয়ে দিই একটা পরীক্ষা আমাকে বা আমার মূল্যকে পুরো সংজ্ঞায়িত করে না","I remind myself one exam does not fully define me or my worth",END_OK,"coping:+3,clarity:+2",-1
+SCN_006,N3,"বাবা-মাকে আগে থেকেই খারাপ খবর দেওয়ার কল্পনায় হারিয়ে যাই এবং আতঙ্ক বাড়াই","I get lost imagining the worst news for my parents and feed the panic",END_FAIL,"avoidance:+3,coping:0",1
+SCN_007,N1,"হাত তুলে টিচারকে একটা স্পষ্ট প্রশ্ন করি — যে অংশটা বুঝিনি","I raise my hand and ask the teacher one clear question about what I missed",N2,"coping:+2,help_seeking:+2",0
+SCN_007,N1,"চুপ থাকি — পরে একা গুগল করে বোঝার চেষ্টা করব বলে এড়িয়ে যাই","I stay quiet planning to Google alone later — avoiding asking now",END_FAIL,"avoidance:+4,coping:0",1
+SCN_007,N1,"ক্লাসমেটকে ফিসফিস করে জিজ্ঞেস করি ওই পয়েন্টটা আবার কী ছিল","I whisper to a classmate asking what that point meant again",N2,"help_seeking:+1,coping:+1",0
+SCN_007,N2,"যা বুঝিনি সেটা নিজের ভাষায় স্পষ্ট করে বলি যাতে টিচার ধরতে পারেন","I clearly say in my own words what I did not understand so the teacher can help",END_OK,"coping:+3,clarity:+2",-1
+SCN_008,N1,"সতীর্থদের বলি এই অংশটা আমি এখনো ধরতে পারিনি — একটু বুঝিয়ে দাও","I tell the group I still do not get this part and ask them to explain briefly",N2,"help_seeking:+2,coping:+1",0
+SCN_008,N1,"নিজের অজ্ঞতা লুকিয়ে মাথা নাড়ি এবং ভান করি সব বুঝেছি","I hide confusion nod along and pretend I understand everything",END_FAIL,"avoidance:+4,coping:0",1
+SCN_008,N1,"৫ মিনিট বিরতি নিয়ে পানি খাই তারপর আবার একটা প্রশ্ন নিয়ে ফিরি","I take a 5-minute break drink water then return with one question",N2,"coping:+1,clarity:+1",0
+SCN_008,N2,"গ্রুপে আমার শেখার গতি সম্পর্কে সৎ হই এবং আজকের একটা টার্গেট বলি","I honestly share my learning pace and state one target for today",END_OK,"coping:+3,clarity:+2,empathy:+1",-1
+SCN_009,N1,"শান্ত স্বরে বলি কাল পরীক্ষা — একটু কম শব্দে বা হেডফোন ব্যবহার করলে উপকার হয়","I calmly say exam is tomorrow and ask for quieter volume or headphones",N2,"coping:+2,clarity:+1",0
+SCN_009,N1,"রাগ করে চিৎকার করি এবং অভিযোগের বৃষ্টি ফেলি","I yell in anger and dump accusations",END_FAIL,"conflict:+4,avoidance:+1",1
+SCN_009,N1,"কিছু না বলে ইয়ারপ্লাগ লাগিয়ে সহ্য করি এবং রাগ ভেতরে চাপি","I say nothing put in earplugs and quietly endure while anger builds",END_FAIL,"avoidance:+3,coping:0",0
+SCN_009,N2,"সমঝোতায় সময় ঠিক করি — কখন গান বন্ধ করবে এবং আমি কখন বিরতি নেব","We agree on a time to turn music off and when I will take a short break",END_OK,"coping:+3,clarity:+2,empathy:+1",-1
+SCN_010,N1,"আগে থেকে প্রস্তুত করা এক লাইনের intro মনে করি এবং ধীরে বলতে শুরু করি","I recall one prepared intro line and begin speaking slowly",N2,"coping:+2,clarity:+1",0
+SCN_010,N1,"দুঃখ প্রকাশ করে ইন্টারভিউ ছেড়ে বের হয়ে যাই","I apologize and leave the interview completely",END_FAIL,"avoidance:+5,coping:0",2
+SCN_010,N1,"এক গ্লাস পানি চেয়ে এক মুহূর্ত সময় নিই তারপর উত্তর দিই","I ask for a glass of water to buy a moment then answer",N2,"help_seeking:+2,coping:+1",0
+SCN_010,N2,"নাম বিভাগ ও একটা শক্তি বলে সংক্ষেপে নিজেকে পরিচয় করাই","I introduce myself briefly with name department and one strength",END_OK,"coping:+3,clarity:+2",-1

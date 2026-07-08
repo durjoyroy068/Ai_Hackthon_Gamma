@@ -12,7 +12,7 @@ use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
 #[Fillable([
-    'full_name', 'email', 'phone', 'recovery_email', 'recovery_phone',
+    'full_name', 'email', 'firebase_uid', 'auth_provider', 'phone', 'recovery_email', 'recovery_phone',
     'age_band', 'language', 'country', 'date_of_birth', 'gender',
     'is_anonymous', 'avatar_url', 'onboarding_complete', 'phone_verified',
     'is_admin', 'password', 'email_verified_at',

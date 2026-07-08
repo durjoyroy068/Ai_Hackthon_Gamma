@@ -1,0 +1,183 @@
+session_id,user_id,scenario_id,difficulty_level,user_response,response_time_sec,choice_made,clarity_score,coping_score,avoidance_score,overall_score,feedback_text,source
+S1,U2,SCN_004,hard,ok,-36,avoid,0,0,4,1.7,"চিন্তা করবেন না, এমন অনুভব",app_export
+S2,U5,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-112,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S3,U5,SCN_001,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-214,cope,4,7,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S4,U5,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-325,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S5,U6,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-384,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S6,U6,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-274,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S7,U7,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-207,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S8,U7,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-424,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S9,U7,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-191,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S10,U7,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-366,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S11,U8,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-316,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S12,U8,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-346,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S13,U8,SCN_001,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-427,cope,4,7,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S14,U8,SCN_008,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-312,cope,3,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S15,U9,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-378,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S16,U9,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-448,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S17,U9,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-174,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S18,U10,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-324,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S19,U10,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-215,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S20,U10,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-170,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S21,U10,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-391,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S22,U11,SCN_005,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-380,cope,1,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S23,U11,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-269,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S24,U12,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-135,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S25,U12,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-175,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S26,U12,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-132,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S27,U12,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-413,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S28,U13,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-254,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S29,U13,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-291,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S30,U13,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-246,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S31,U13,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-92,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S32,U14,SCN_004,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-165,cope,5,8,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S33,U14,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-366,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S34,U14,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-190,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S35,U14,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-106,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S36,U15,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-336,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S37,U15,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-343,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S38,U15,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-206,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S39,U15,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-437,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S40,U16,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-427,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S41,U16,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-245,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S42,U17,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-112,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S43,U17,SCN_007,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-467,cope,2,7,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S44,U17,SCN_003,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-111,cope,4,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S45,U18,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-313,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S46,U18,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-387,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S47,U19,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-411,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S48,U19,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-141,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S49,U20,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-148,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S50,U20,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-263,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S51,U20,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-288,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S52,U21,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-350,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S53,U21,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-157,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S54,U22,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-450,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S55,U22,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-408,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S56,U23,SCN_005,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-206,cope,1,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S57,U23,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-253,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S58,U24,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-231,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S59,U24,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-308,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S60,U24,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-456,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S61,U24,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-216,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S62,U25,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-234,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S63,U25,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-415,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S64,U26,SCN_007,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-197,cope,2,7,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S65,U26,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-448,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S66,U26,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-456,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S67,U26,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-125,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S68,U27,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-117,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S69,U27,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-418,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S70,U27,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-92,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S71,U28,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-314,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S72,U28,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-353,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S73,U28,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-127,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S74,U29,SCN_005,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-341,cope,1,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S75,U29,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-150,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S76,U29,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-238,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S77,U29,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-425,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S78,U30,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-190,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S79,U30,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-185,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S80,U30,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-304,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S81,U31,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-379,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S82,U31,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-105,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S83,U32,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-336,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S84,U32,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-343,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S85,U33,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-165,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S86,U33,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-417,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S87,U33,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-267,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S88,U33,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-109,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S89,U34,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-201,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S90,U34,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-463,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S91,U34,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-331,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S92,U34,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-246,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S93,U35,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-240,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S94,U35,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-106,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S95,U35,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-269,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S96,U36,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-410,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S97,U36,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-452,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S98,U36,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-265,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S99,U37,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-104,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S100,U37,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-251,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S101,U37,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-267,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S102,U38,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-322,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S103,U38,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-198,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S104,U39,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-343,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S105,U39,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-462,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S106,U40,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-218,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S107,U40,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-116,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S108,U41,SCN_004,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-173,cope,5,8,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S109,U41,SCN_007,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-271,cope,2,7,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S110,U42,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-144,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S111,U42,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-161,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S112,U42,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-400,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S113,U42,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-323,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S114,U43,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-244,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S115,U43,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-117,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S116,U43,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-197,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S117,U43,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-354,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S118,U44,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-221,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S119,U44,SCN_001,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-142,cope,4,7,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S120,U45,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-356,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S121,U45,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-210,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S122,U45,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-270,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S123,U46,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-369,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S124,U46,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-128,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S125,U47,SCN_008,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-341,cope,3,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S126,U47,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-135,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S127,U48,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-200,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S128,U48,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-402,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S129,U48,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-327,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S130,U48,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-457,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S131,U49,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-476,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S132,U49,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-219,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S133,U49,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-463,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S134,U50,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-161,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S135,U50,SCN_008,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-398,cope,3,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S136,U50,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-258,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S137,U50,SCN_005,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-298,cope,1,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S138,U51,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-119,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S139,U51,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-402,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S140,U51,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-314,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S141,U51,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-201,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S142,U52,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-400,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S143,U52,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-234,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S144,U52,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-464,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S145,U52,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-429,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S146,U53,SCN_005,easy,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-166,cope,1,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S147,U53,SCN_008,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-394,cope,3,6,0,8.8,"Pilot proxy: practiced a coping-forward path.",app_export
+S148,U53,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-163,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S149,U53,SCN_001,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-298,cope,4,7,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S150,U54,SCN_001,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-344,avoid,0,0,8,1,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S151,U54,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-353,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S152,U54,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-137,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S153,U55,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-129,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S154,U55,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-431,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S155,U55,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-393,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S156,U56,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-142,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S157,U56,SCN_001,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-384,cope,4,7,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S158,U56,SCN_010,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-470,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S159,U56,SCN_009,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-147,cope,4,5,0,9.5,"Pilot proxy: practiced a coping-forward path.",app_export
+S160,U57,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-404,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S161,U57,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-436,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S162,U57,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-258,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S163,U57,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-185,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S164,U58,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-219,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S165,U58,SCN_010,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-165,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S166,U58,SCN_007,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-322,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S167,U58,SCN_004,hard,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-99,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S168,U59,SCN_004,hard,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-300,cope,5,8,0,10,"Pilot proxy: practiced a coping-forward path.",app_export
+S169,U59,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-460,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S170,U60,SCN_006,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-147,avoid,0,0,5,1.3,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S171,U60,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-208,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S172,U60,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-443,avoid,0,0,5,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S173,U61,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-110,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S174,U61,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-357,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S175,U62,SCN_006,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-436,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S176,U62,SCN_002,medium,"আমি একটু নার্ভাস ছিলাম কিন্তু একটা ছোট পদক্ষেপ নিয়েছি।",-475,cope,3,5,0,9.3,"Pilot proxy: practiced a coping-forward path.",app_export
+S177,U63,SCN_002,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-353,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S178,U63,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-227,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S179,U63,SCN_008,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-386,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S180,U64,SCN_003,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-218,avoid,0,0,5,1.8,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S181,U64,SCN_009,medium,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-240,avoid,0,0,3,2,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export
+S182,U64,SCN_005,easy,"আমি এড়িয়ে গিয়েছিলাম — পরের বার আরেকটা চেষ্টা করব।",-142,avoid,0,0,4,1.7,"Pilot proxy: avoidance-heavy path — practice again with slower pacing.",app_export

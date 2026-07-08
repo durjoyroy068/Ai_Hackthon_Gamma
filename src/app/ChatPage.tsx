@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react'
+import { useState, useCallback, useEffect, useRef } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import toast from 'react-hot-toast'
@@ -28,6 +28,13 @@ export function ChatPage() {
   const [streamingContent, setStreamingContent] = useState('')
   const [abortController, setAbortController] = useState<AbortController | null>(null)
   const [creating, setCreating] = useState(false)
+  const sendingRef = useRef(false)
+
+  // Clear any stuck streaming lock from older persisted sessions.
+  useEffect(() => {
+    setStreaming(false)
+    setStreamingContent('')
+  }, [setStreaming])
 
   useEffect(() => {
     if (!id) {
@@ -41,7 +48,8 @@ export function ChatPage() {
     ? conversations.find((c) => c.id === id)
     : null
 
-  const isEmpty = !conversation || conversation.messages.filter((m) => m.content).length === 0
+  const visibleMessages = conversation?.messages.filter((m) => m.content) ?? []
+  const isEmpty = visibleMessages.length === 0
 
   const ensureConversation = useCallback(async (): Promise<Conversation> => {
     if (conversation) return conversation
@@ -60,10 +68,15 @@ export function ChatPage() {
   }, [conversation, creating, addConversation, setActiveConversation, navigate, t])
 
   const handleSend = async (content: string) => {
+    if (sendingRef.current || isStreaming) return
+    sendingRef.current = true
+
     let conv: Conversation
     try {
       conv = await ensureConversation()
     } catch {
+      sendingRef.current = false
+      toast.error(t('chat.errorRetry'))
       return
     }
 
@@ -74,9 +87,11 @@ export function ChatPage() {
       createdAt: new Date().toISOString(),
     }
 
+    const baseMessages = [...(useChatStore.getState().conversations.find((c) => c.id === conv.id)?.messages ?? conv.messages)]
+
     updateConversation(conv.id, {
-      messages: [...conv.messages, userMsg],
-      title: conv.messages.length === 0 ? content.slice(0, 40) : conv.title,
+      messages: [...baseMessages, userMsg],
+      title: baseMessages.length === 0 ? content.slice(0, 40) : conv.title,
     })
 
     setStreaming(true)
@@ -97,26 +112,41 @@ export function ChatPage() {
       })
 
       if (!controller.signal.aborted) {
-        const userWithSafety = {
-          ...userMsg,
-          id: result.userMessage.id,
-          safetyLevel: result.userMessage.safetyLevel,
-        }
+        const latest = useChatStore.getState().conversations.find((c) => c.id === conv.id)
+        const withoutTemp = (latest?.messages ?? baseMessages).filter(
+          (m) => m.id !== userMsg.id && m.id !== assistantMsg.id
+        )
         updateConversation(conv.id, {
           messages: [
-            ...conv.messages,
-            userWithSafety,
-            { ...assistantMsg, id: result.assistantMessage.id, content: result.responseText },
+            ...withoutTemp,
+            {
+              ...userMsg,
+              id: result.userMessage.id,
+              safetyLevel: result.userMessage.safetyLevel,
+            },
+            {
+              ...assistantMsg,
+              id: result.assistantMessage.id,
+              content: result.responseText,
+            },
           ],
-          title: conv.messages.length === 0 ? content.slice(0, 40) : conv.title,
+          title: baseMessages.length === 0 ? content.slice(0, 40) : conv.title,
         })
       }
     } catch {
-      toast.error(t('common.error'))
+      toast.error(t('chat.errorRetry'))
+      // Keep the user's message even if the assistant reply fails.
+      const latest = useChatStore.getState().conversations.find((c) => c.id === conv.id)
+      if (latest && !latest.messages.some((m) => m.id === userMsg.id || m.content === content)) {
+        updateConversation(conv.id, {
+          messages: [...latest.messages, userMsg],
+        })
+      }
     } finally {
       setStreaming(false)
       setStreamingContent('')
       setAbortController(null)
+      sendingRef.current = false
     }
   }
 
@@ -124,6 +154,7 @@ export function ChatPage() {
     abortController?.abort()
     setStreaming(false)
     setStreamingContent('')
+    sendingRef.current = false
   }
 
   return (
@@ -134,7 +165,7 @@ export function ChatPage() {
           <ChatWelcome onSuggestionClick={handleSend} />
         ) : (
           <MessageList
-            messages={conversation?.messages.filter((m) => m.content) ?? []}
+            messages={visibleMessages}
             isStreaming={isStreaming}
             streamingContent={streamingContent}
           />

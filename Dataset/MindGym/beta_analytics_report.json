@@ -1,0 +1,46 @@
+{
+    "protocol": {
+        "version": "1.0-interim",
+        "status": "LOCKED_FOR_PRODUCT_USE_PENDING_LICENSED_REVIEW",
+        "effectiveFrom": "2026-07-08",
+        "disclaimer": "Not a licensed clinical endorsement. Evidence-informed interim protocol for product development and beta. Must be reviewed by a qualified psychologist\/counselor before public clinical claims."
+    },
+    "totalSessions": 707,
+    "uniqueUsers": 61,
+    "avgOverallScore": 4.1,
+    "completionRate": 32.1,
+    "betaFeedbackCount": 48,
+    "byCategory": [
+        {
+            "category": "academic_stress",
+            "sessions": 63,
+            "avgScore": 4.1,
+            "completionRate": 28.6
+        },
+        {
+            "category": "presentation",
+            "sessions": 146,
+            "avgScore": 4.1,
+            "completionRate": 33.6
+        },
+        {
+            "category": "exam",
+            "sessions": 129,
+            "avgScore": 3.9,
+            "completionRate": 32.6
+        },
+        {
+            "category": "conflict",
+            "sessions": 145,
+            "avgScore": 4.6,
+            "completionRate": 35.9
+        },
+        {
+            "category": "social",
+            "sessions": 224,
+            "avgScore": 3.8,
+            "completionRate": 29.5
+        }
+    ],
+    "corpusNote": "Includes pathway-valid proxy pilot sessions until replaced by consented student beta."
+}

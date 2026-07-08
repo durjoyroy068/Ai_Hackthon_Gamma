@@ -117,7 +117,15 @@ export const useChatStore = create<ChatState>()(
         })),
       setStreaming: (isStreaming) => set({ isStreaming }),
     }),
-    { name: 'mon-songlap-chat' }
+    {
+      name: 'mon-songlap-chat',
+      // Never persist in-flight UI locks — a refresh mid-send used to freeze chat forever.
+      partialize: (state) => ({
+        conversations: state.conversations,
+        folders: state.folders,
+        activeConversationId: state.activeConversationId,
+      }),
+    }
   )
 )
 

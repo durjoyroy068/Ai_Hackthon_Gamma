@@ -10,7 +10,6 @@ import {
   FolderOpen,
   BookHeart,
   Calendar,
-  ClipboardList,
   Dumbbell,
   Route,
   LayoutDashboard,
@@ -36,7 +35,6 @@ import { EmergencyButton } from '@/components/emergency/EmergencyButton'
 const navItems = [
   { key: 'moodJournal', path: '/app/mood-journal', icon: BookHeart },
   { key: 'moodCalendar', path: '/app/mood-calendar', icon: Calendar },
-  { key: 'assessment', path: '/app/assessment', icon: ClipboardList },
   { key: 'mindGym', path: '/app/mind-gym', icon: Dumbbell },
   { key: 'recoveryPlan', path: '/app/recovery-plan', icon: Route },
   { key: 'dashboard', path: '/app/dashboard', icon: LayoutDashboard },

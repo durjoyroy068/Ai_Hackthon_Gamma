@@ -68,12 +68,18 @@ export async function apiRequest<T>(
 
 export async function simulateStream(
   text: string,
-  onChunk: (chunk: string) => void
+  onChunk: (chunk: string) => void,
+  delayMs = 35
 ): Promise<string> {
+  if (!text) {
+    onChunk('')
+    return ''
+  }
+
   const words = text.split(' ')
   let accumulated = ''
   for (const word of words) {
-    await new Promise((r) => setTimeout(r, 60 + Math.random() * 60))
+    await new Promise((r) => setTimeout(r, delayMs))
     accumulated += (accumulated ? ' ' : '') + word
     onChunk(accumulated)
   }

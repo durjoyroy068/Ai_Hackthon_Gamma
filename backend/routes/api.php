@@ -17,6 +17,7 @@ Route::prefix('v1')->group(function () {
 
     Route::post('/auth/register', [AuthController::class, 'register']);
     Route::post('/auth/login', [AuthController::class, 'login']);
+    Route::post('/auth/google', [AuthController::class, 'google']);
     Route::post('/auth/otp/send', [AuthController::class, 'sendOtp']);
     Route::post('/auth/otp/verify', [AuthController::class, 'verifyOtp']);
     Route::post('/auth/password/forgot', [AuthController::class, 'forgotPassword']);
@@ -62,9 +63,15 @@ Route::prefix('v1')->group(function () {
 
         Route::get('/mind-gym/scenarios', [MindGymController::class, 'scenarios']);
         Route::get('/mind-gym/progress', [MindGymController::class, 'progress']);
+        Route::get('/mind-gym/analytics', [MindGymController::class, 'analytics']);
+        Route::get('/mind-gym/protocol', [MindGymController::class, 'protocol']);
+        Route::get('/mind-gym/intake', [MindGymController::class, 'intake']);
+        Route::post('/mind-gym/recommend', [MindGymController::class, 'recommend']);
+        Route::post('/mind-gym/npc-turn', [MindGymController::class, 'npcTurn']);
         Route::post('/mind-gym/sessions', [MindGymController::class, 'start']);
         Route::get('/mind-gym/sessions/{session}', [MindGymController::class, 'show']);
         Route::post('/mind-gym/sessions/{session}/choose', [MindGymController::class, 'choose']);
+        Route::post('/mind-gym/sessions/{session}/story', [MindGymController::class, 'storyTurn']);
         Route::post('/mind-gym/sessions/{session}/reflect', [MindGymController::class, 'reflect']);
     });
 });
